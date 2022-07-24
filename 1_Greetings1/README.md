@@ -1,4 +1,4 @@
-# Intro: Greetings – Part 1
+# Chapter 1: Greetings – Part 1
 
 Contains C++ source code files for a program which asks the user's name and returns an approriate greeting (using their name).
 
