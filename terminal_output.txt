@@ -1,0 +1,16 @@
+################ Terminal Output of hello_world1.cpp ###################
+Hello, world!
+This " is a quoute, and this \ is a backslash.
+This large space (      ) is from a tab character
+########################################################################
+
+############### Terminal Output of hello_world_sample.cpp ##############
+// a small C++ program
+#include <iostream>
+
+int main()
+{
+	std::cout << "Hello, world!" << std::endl;
+	return 0;
+}
+########################################################################
