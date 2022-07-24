@@ -1,0 +1,13 @@
+############### Example of the Terminal Output of greetings1.cpp ########## 
+Please enter your first name: babs099
+Hello, babs099!
+########################################################################### 
+
+############### Example of the Terminal Output of greetings2.cpp ########## 
+Please enter your first name: babs099
+*******************
+*                 *
+* Hello, babs099! *
+*                 *
+*******************
+########################################################################### 
