@@ -42,8 +42,7 @@ void output_greeting(string greeting)
                     cout << " ";
                 ++c;
             }
-        } 
-
+        }
         cout << endl;
     }
 }
