@@ -91,7 +91,9 @@ double grade(double midterm, double final, const vector<double>& hw)
 }
 
 
-// read howework grades from an input stream into a vector<double>
+// read howework grades from an input stream into a vector<double>.
+// this function does not copy either of its arguments (i.e. they are called by reference).
+// therefore the original references or variables passed to it may be modified by this function.
 istream& read_hw(istream& in, vector<double>& hw) 
 {
     // Only proceed to read unless there is a problem with the input stream already.
