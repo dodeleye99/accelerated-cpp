@@ -12,6 +12,7 @@ using std::domain_error;    using std::streamsize;
 using std::endl;            using std::string; 
 using std::istream;         using std::vector; 
 
+
 // compute the median of a vector<double>
 // note that calling this function copies the entire argument vector (i.e. call by value), thus the sort() function causes no side effects
 double median(vector<double> vec)
@@ -46,6 +47,7 @@ double median(vector<double> vec)
     //     return  vec[mid];
 }
 
+
 // compute the mean of a vector<double>
 double mean(vector<double> vec){
 
@@ -67,11 +69,13 @@ double mean(vector<double> vec){
 
 }
 
+
 // compute a student's overall grade from midterm and final exam grades and homework grade
 double grade(double midterm, double final, double homework)
 {
     return 0.2 * midterm + 0.4 * final + 0.4 * homework;
 }
+
 
 // compute a student's overall grade from midterm and final exam grades
 // and vector of homework grades.
@@ -85,6 +89,7 @@ double grade(double midterm, double final, const vector<double>& hw)
     return grade(midterm, final, median(hw));
 
 }
+
 
 // read howework grades from an input stream into a vector<double>
 istream& read_hw(istream& in, vector<double>& hw) 
@@ -109,6 +114,7 @@ istream& read_hw(istream& in, vector<double>& hw)
     //  whether the read was successful or not)
     return in;
 }
+
 
 // This procedure is used to output the greeting.
 void output_greeting(string greeting)
@@ -150,6 +156,7 @@ void output_greeting(string greeting)
     }
 }
 
+
 int main()
 {
     // ask for and read the student's name
@@ -177,6 +184,7 @@ int main()
 
     // compute and write the final grade, if possible
     try {
+        // may replace 'median' with 'mean' for an alternative method of calculating final grade
         double final_grade = grade(midterm, final, median(homework));
         streamsize prec = cout.precision();
         cout << "Your final grade is " << setprecision(3)
