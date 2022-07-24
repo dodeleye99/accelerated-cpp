@@ -67,40 +67,6 @@ int main()
 
     return 0;
 }
-
-int message_builder(std::string greeting)
-{
-    // the number of blanks surrounding the greeting
-    const int pad = 1;
-
-    // total number of rows to write
-    const int rows = pad * 2 + 3;
-
-    // separate the output from the input
-    std::cout << std::endl;
-
-    std::string::size_type cols = greeting.size() + pad * 2 + 2;
-
-    // invariant: we have written r rows so far
-
-    // write 'rows' rows of output
-    int r = 0; 
-    // setting r to 0 makes the invariant true
-
-    while (r != rows){
-        // we can assume that the invariant is true here
-
-        // writing a row of output makes the invariant false
-        std::cout << std::endl;
-
-        // incrementing r makes the invariant true again
-        ++r;
-    }
-    // we can conclude that the invariant is true here
-
-    return 0;
-}
-
 /*
 The operator ++ is used to increment a value.
     ++x increments x and THEN outputs its (new) value
