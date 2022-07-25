@@ -1,0 +1,13 @@
+########### Example of Terminal Output from grades1.cpp ###################################################
+Please enter the records of each student (name, midterm and final exam grades, homework grades):
+Babs 96 74 63 56 84 78
+Dan  87 88 56 74 26
+Tomi 67 85 54 45 37 74
+Ode 64 85
+^D
+Final Grades: 
+Babs 77
+Dan  75
+Ode  student has done no homework
+Tomi 67.2
+##########################################################################################################
