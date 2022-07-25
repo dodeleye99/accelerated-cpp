@@ -1,6 +1,6 @@
 # Chapter 4: Records
 
-An extension of Chapter 3. Rather than only the grade of one student calculated, the program allows multiple student records to be inputted by the user, and calculates the final grade for each one. It then neatly outputs in alphebetical order each student's name along with their final grade.
+An extension of Chapter 3. Rather than only the grade of one student calculated, the program allows multiple student records to be inputted by the user, and calculates the final grade for each one. It then neatly outputs in alphabetical order each student's name along with their final grade.
 
 The input grades are now restricted to integers rather than decimals, to prevent the strange behaviour illustrated and explained here: 
 
