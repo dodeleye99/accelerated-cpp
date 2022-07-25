@@ -2,12 +2,12 @@
 
 An extension of Chapter 3. Rather than only the grade of one student calculated, the program allows multiple student records to be inputted by the user, and calculates the final grade for each one. It then neatly outputs in alphebetical order each student's name along with their final grade.
 
-The input grades are now restricted to integers rather than decimals, due to otherwise strange behavior illustrated and explained here: 
+The input grades are now restricted to integers rather than decimals, to prevent the strange behaviour illustrated and explained here: 
 
 https://stackoverflow.com/questions/44688567/why-is-iostream-cutting-off-the-first-letter-in-certain-words
 
 ### Code:
-1) records1.cpp does as explained above.
+1) **records1.cpp** does as explained above.
 
 ### Extension:
 
