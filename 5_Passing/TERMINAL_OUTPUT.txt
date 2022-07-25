@@ -10,6 +10,9 @@ Babs   51 (fail)
 Daniel 83.4
 Odey   student has done no homework
 Tomi   60.8
+
+###########################################################################################################################
+
 ################################ Example of passing2 Terminal Output ######################################################
 Please enter the records of each student (name, midterm and final exam grades, homework grades),followed by end-of-file: 
 Daniel 84 86 94 64 74 67
@@ -36,6 +39,8 @@ Alex   54.6
 Dai    student has done no homework
 Odey   52
 Tom    54.6
+###########################################################################################################################
+
 ############################## Example of sentence_split Terminal Output ######################################################
 Input a sentence to split into words: 
 This is a sentence as it is made up of words which are each surrounded by blank space
@@ -88,3 +93,4 @@ goodbye
 to
 this
 program
+###########################################################################################################################
