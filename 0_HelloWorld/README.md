@@ -8,6 +8,7 @@ Contains multiple C++ source code files for the "Hello World" program. They diff
 3) **hello_world_sample.cpp** outputs source code for a simple "Hello World" project.
 
 ### New Concepts:
+* The main function
 * Output stream and operator
 * String literals
 * Escape sequences
