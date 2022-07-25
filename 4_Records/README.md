@@ -10,6 +10,7 @@ https://stackoverflow.com/questions/44688567/why-is-iostream-cutting-off-the-fir
 1) **records1.cpp** does as explained above.
 
 ### Extension:
+3) **squares.cpp** does further experimentation with neatly writting a table of results. It computes the squares of 0 to 999.
 
 ### New Concepts:
 * defining _struct_ types, used to group data values to form a data structure, so that it can be treated as a single entity.
