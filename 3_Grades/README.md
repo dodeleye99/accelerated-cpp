@@ -13,6 +13,7 @@ The final grade for the student is calculated as the sum of 20% of the midterm e
 
 ### Extension:
 4) **words.cpp** does further experimentation with vector containers. It takes a sequence of words from the user as input, and returns the number of times each distinct word occurs.
+4) **quartiles.cpp** does further experimentation regarding the calculations on a sequence of numbers. It takes a sequence of integers as user input, and outuputs its quartiles, including the minimum (0%), lower quartile (25%), median (50%), upper quartile (75%), and maximum (100%).
 
 ### New Concepts:
 * reading multiple inputs from the user.
