@@ -4,7 +4,7 @@ An extension of the student records system established in Chapter 4. It now dist
 
 ### Directories of Code:
 1) **passing1** outputs all the students with their final grades as usual, but adds "(fail)" next to every grade below the threshold, while making no comment on the passing grades.
-2) **passing2** instead extracts the students that failed from the students that passed, and outputs a separate list for each of these two groups. Students that did not do homework are also put into the failed category.
+2) **passing2** instead extracts the students that failed from the students that passed, and outputs a separate list for each of these two groups. Students that did not do homework are also put into the failed category. It also uses a list rather than a vector to store the student grades and then extract the failing students (see the comment at the end of grades.cpp).
 ### Extension:
 
 ### New Concepts:
