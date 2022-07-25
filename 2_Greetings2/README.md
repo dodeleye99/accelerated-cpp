@@ -11,7 +11,10 @@ Contintues on from part 1.
 
 ### New Concepts:
 * The int data type, used to represent integers
+* Basic arithmetic operators
 * Logical operators
 * Iteration through while loops, running a block of code repreatedly against a fixed condition
 * Branching through if-else statements, using conditions to determine out of a set of code blocks which to run (or if a single block should be run)
-* 
+* Incrementation operator
+* Size types used as a mnemonic to approprately represent the size of string and container objects.
+* Definiing functions
