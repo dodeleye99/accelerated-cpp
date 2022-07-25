@@ -3,7 +3,7 @@
 An extension of the student records system established in Chapter 4. It now distinguishes between students that passed and stutents that failed, based on their final grade being above or below a fixed threshold. The program uses 60 as the threshold.
 
 ### Directories of Code:
-1) **passing1** outputs all the students with their final grades as usual, but adds "(fail)" next to every grade below the threshold, while making no cooment on the passing grades.
+1) **passing1** outputs all the students with their final grades as usual, but adds "(fail)" next to every grade below the threshold, while making no comment on the passing grades.
 2) **passing2** first outputs grades as normal. It then extracts the students that failed from the students that passed, and outputs a separate list for each of these two groups. Students that did not do homework are also put into the failed category.
 ### Extension:
 
