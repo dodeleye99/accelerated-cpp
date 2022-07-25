@@ -12,3 +12,4 @@ Contains C++ source code files for programs which each asks for the user's name 
 * String concatenation (joining a string literal with a string object)
 * Constants
 * Object constructors
+* Object members (methods or functions) and the member access operator
