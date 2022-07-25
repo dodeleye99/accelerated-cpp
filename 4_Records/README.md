@@ -6,9 +6,9 @@ The input grades are now restricted to integers rather than decimals, to prevent
 
 https://stackoverflow.com/questions/44688567/why-is-iostream-cutting-off-the-first-letter-in-certain-words
 
-### Code:
+### Directories of Code:
 1) **records1** containing only **main.cpp** does as explained above.
-2) **records2** breaks the code down into multiple files to make it more organised and easier to find 
+2) **records2** breaks the source code down into multiple files to make it more organised and easier to find particular code. 
 
 ### Extension:
 3) **squares.cpp** does further experimentation with neatly writting a table of results. It computes the squares of 0 to 999.
