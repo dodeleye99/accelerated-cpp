@@ -10,7 +10,7 @@ Babs   51 (fail)
 Daniel 83.4
 Odey   student has done no homework
 Tomi   60.8
-################################ Example of passing12Terminal Output ######################################################
+################################ Example of passing2 Terminal Output ######################################################
 Please enter the records of each student (name, midterm and final exam grades, homework grades),followed by end-of-file: 
 Daniel 84 86 94 64 74 67
 Sam 45 67 36 86 85
