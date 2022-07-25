@@ -1,4 +1,4 @@
-###################### Example of Terminal Output from grades1.cpp #################################
+###################### Example of Terminal Output from grades1.cpp ######################################
 Please enter your first name: Babs
 
 ******************
@@ -12,9 +12,9 @@ Please enter your midterm and final exam grades: 78 84
 Enter all your homework grades, followed by end-of-file: 67 78 53 73 91
 Your final grade is 78.2
 
-###################################################################################################
+########################################################################################################
 
-####### Example of Terminal Output from words.cpp #################################################
+###################### Example of Terminal Output from words.cpp #######################################
 Input any sequence of words, followed by end-of-file: the quick brown fox jumps over the lazy dog                
 Number of times each distinct word appears:   
 the: 2
@@ -25,4 +25,14 @@ jumps: 1
 over: 1
 lazy: 1
 dog: 1
-###################################################################################################
+#######################################################################################################
+
+###################### Example of Terminal Output from quartiles.cpp ##################################
+Input a set of integers to find the quartiles, followed by end-of-file: 58 57 84 46 6 9 96 67 76 46 36
+^D
+Minimum: 6
+Lower Quartile: 41
+Median: 57
+Upper Quartile: 71.5
+Maximum: 96
+#######################################################################################################
