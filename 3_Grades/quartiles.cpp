@@ -14,11 +14,6 @@ using std::streamsize;
 using std::vector;
 
 
-// double interpolate(int i1, int i2, int index1, double index) {
-//     return (i2 - i1)*(index1 - index) + i1;
-// }
-
-
 // This function does interpolation between two adjacent values of a vector.
 // The parameter 'left_index' indicates the index of the value with the lesser index.
 double interpolate(vector<int> integers, int left_index, double factor) {
