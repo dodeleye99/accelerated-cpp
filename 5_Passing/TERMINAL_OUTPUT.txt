@@ -1,4 +1,4 @@
-################################ Example of pass-fail1 Terminal Output ###################################################
+################################ Example of passing1 Terminal Output ######################################################
 Please enter the records of each student (name, midterm and final exam grades, homework grades), followed by end-of-file: 
 Daniel 95 97 58 64 87
 Tomi 64 84 36 25 67
