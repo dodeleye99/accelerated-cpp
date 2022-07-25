@@ -11,6 +11,9 @@ The final grade for the student is calculated as the sum of 20% of the midterm e
 2) **grades2.cpp** uses a vector to store the homework grades as they are inputted. In the grade calculation, instead of using the average, it now uses the _median_ of the homework grades. It also does input validation, ending the program early if an insufficient number of grades (such as no homework) is inputted.
 3) **grades3.cpp** breaks the code into more parts, and goes into more depth with validating the user's input by catching errors that would be caused by not inputting any homework grades (or invalid exam grades). It is also written in light of the next chapters, where the grades of _multiple_ students are inputted.
 
+### Extension:
+4) **words.cpp** does further experimentation with vector containers. It takes a sequence of words from the user as input, and returns the number of times each distinct word occurs.
+
 ### New Concepts:
 * reading multiple inputs from the user.
 * floating-point 'double' numbers, for representing non-integer or decimal numbers.
