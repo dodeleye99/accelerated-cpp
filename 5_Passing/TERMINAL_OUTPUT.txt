@@ -3,9 +3,11 @@ Please enter the records of each student (name, midterm and final exam grades, h
 Daniel 95 97 58 64 87
 Tomi 64 84 36 25 67
 Babs 35 36 74
+Odey 67 85
 ^D
 Final Grades: 
 Babs   51 (fail)
 Daniel 83.4
+Odey   student has done no homework
 Tomi   60.8
 ###########################################################################################################################
