@@ -94,3 +94,54 @@ to
 this
 program
 ###########################################################################################################################
+
+############################################## Example of concordance Terminal Output ####################################
+
+Enter a set of phrases to form a concordance: 
+This is a sentence as it is made up of words which are each surrounded by blank space
+The quick brown fox jumps over the lazy dog       
+This is the last sentence I will write before I say goodbye to this program
+^D
+ This is the last sentence I will write before                                   |I say goodbye to this program 
+ This is the last sentence                                                       |I will write before I say goodbye to this program 
+                                                                                 |The quick brown fox jumps over the lazy dog 
+                                                                                 |This is the last sentence I will write before I say goodbye to this program 
+                                                                                 |This is a sentence as it is made up of words which are each surrounded by blank space 
+ This is                                                                         |a sentence as it is made up of words which are each surrounded by blank space 
+ This is a sentence as it is made up of words which                              |are each surrounded by blank space 
+ This is a sentence                                                              |as it is made up of words which are each surrounded by blank space 
+ This is the last sentence I will write                                          |before I say goodbye to this program 
+ This is a sentence as it is made up of words which are each surrounded by       |blank space 
+ The quick                                                                       |brown fox jumps over the lazy dog 
+ This is a sentence as it is made up of words which are each surrounded          |by blank space 
+ The quick brown fox jumps over the lazy                                         |dog 
+ This is a sentence as it is made up of words which are                          |each surrounded by blank space 
+ The quick brown                                                                 |fox jumps over the lazy dog 
+ This is the last sentence I will write before I say                             |goodbye to this program 
+ This                                                                            |is the last sentence I will write before I say goodbye to this program 
+ This                                                                            |is a sentence as it is made up of words which are each surrounded by blank space 
+ This is a sentence as it                                                        |is made up of words which are each surrounded by blank space 
+ This is a sentence as                                                           |it is made up of words which are each surrounded by blank space 
+ The quick brown fox                                                             |jumps over the lazy dog 
+ This is the                                                                     |last sentence I will write before I say goodbye to this program 
+ The quick brown fox jumps over the                                              |lazy dog 
+ This is a sentence as it is                                                     |made up of words which are each surrounded by blank space 
+ This is a sentence as it is made up                                             |of words which are each surrounded by blank space 
+ The quick brown fox jumps                                                       |over the lazy dog 
+ This is the last sentence I will write before I say goodbye to this             |program 
+ The                                                                             |quick brown fox jumps over the lazy dog 
+ This is the last sentence I will write before I                                 |say goodbye to this program 
+ This is the last                                                                |sentence I will write before I say goodbye to this program 
+ This is a                                                                       |sentence as it is made up of words which are each surrounded by blank space 
+ This is a sentence as it is made up of words which are each surrounded by blank |space 
+ This is a sentence as it is made up of words which are each                     |surrounded by blank space 
+ This is                                                                         |the last sentence I will write before I say goodbye to this program 
+ The quick brown fox jumps over                                                  |the lazy dog 
+ This is the last sentence I will write before I say goodbye to                  |this program 
+ This is the last sentence I will write before I say goodbye                     |to this program 
+ This is a sentence as it is made                                                |up of words which are each surrounded by blank space 
+ This is a sentence as it is made up of words                                    |which are each surrounded by blank space 
+ This is the last sentence I                                                     |will write before I say goodbye to this program 
+ This is a sentence as it is made up of                                          |words which are each surrounded by blank space 
+ This is the last sentence I will                                                |write before I say goodbye to this program 
+###########################################################################################################################
