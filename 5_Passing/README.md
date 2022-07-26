@@ -8,6 +8,7 @@ An extension of the student records system established in Chapter 4. It now dist
 ### Extension:
 3) **sentence_split** does further experimentation with iterators. On every line, it receives a sentence as user input, splits it into a vector of its words (identified using the spaces in the sentence), then uses an iterator to output the words line by line.
 4) **concordance** takes iterators and sentence splitting even further. It receives lines of phrases inputted by the user, and neatly generates a concordance for the every word that appears (including repeats).
+5) **framing** goes into more depth with creating a border around strings, along with padding. It represents a picture of characaters as a vector of strings, and constructs algorithms for framing them, and joining them vertically and horizontally. It creates an interface design for a Tetris program to demonstrate this.
 ### New Concepts:
 * Using iterators to traverse over the elements of a data container while pointing to them.
 * The * operator, used to get the value that an iterator is pointing to.
@@ -18,3 +19,4 @@ An extension of the student records system established in Chapter 4. It now dist
 * Reading an single line of input text.
 * Creating a substring out of a given string.
 * Converting integer to string, and padding with leading zeros.
+* Pushing the contents of a vector into another (container "concatenation").
