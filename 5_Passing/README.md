@@ -16,4 +16,5 @@ An extension of the student records system established in Chapter 4. It now dist
 * The list data structure, implementing a linked list.
 * Determining which data container (particularly, vector or list) would be most efficient to use, by acknowleing their pros and cons.
 * Reading an single line of input text.
-* Creating a substring out of a given string
+* Creating a substring out of a given string.
+* Converting integer to string, and padding with leading zeros.
