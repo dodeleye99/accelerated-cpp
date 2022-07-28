@@ -87,8 +87,3 @@ vector<string> hcat(const vector<string>& left, const vector<string>& right)
     }
     return ret;
 }
-
-// i++ means "increment i, returning original value of i"
-// ++i means increment i, returning the new value of i"
-
-// (i, j] = j - i  | | | | |i| | | |j|
