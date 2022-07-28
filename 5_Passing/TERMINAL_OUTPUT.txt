@@ -145,3 +145,15 @@ This is the last sentence I will write before I say goodbye to this program
  This is a sentence as it is made up of                                          |words which are each surrounded by blank space 
  This is the last sentence I will                                                |write before I say goodbye to this program 
 ###########################################################################################################################
+
+################################ Example of framing1 Terminal Output ######################################################
+Input lines of text to be framed, followed by end-of-file:
+This is a sentence
+And this is another one
+Finally one last sentence            
+*****************************
+* This is a sentence        *
+* And this is another one   *
+* Finally one last sentence *
+*****************************
+###########################################################################################################################
