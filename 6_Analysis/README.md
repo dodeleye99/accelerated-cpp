@@ -1,4 +1,4 @@
-# Chapter 6: Algorithms
+# Chapter 6: Analysis
 
 An further extension of the student grading system from previous chapters. It explores various algorithms from the C++ standard library and applies them to the grading system to perform analyses on the final grades students achieved, separating the students that did all the homework from those who didn't.
 
