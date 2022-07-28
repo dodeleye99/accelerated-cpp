@@ -20,7 +20,7 @@ using std::endl;                using std::vector;
 bool did_all_hw(const Student_info& s)
 {   
     // If the find() algorithm fails to find a value equal to 0, and at least one grade exists, then all homework is done.
-    return ((find(s.homework.begin(), s.homework.end(), 0)) == s.homework.end()) && (s.homework.size() != 0) ;
+    return ((find(s.homework.begin(), s.homework.end(), 0)) == s.homework.end()) && (!s.homework.empty()) ;
 }
 
 /**
