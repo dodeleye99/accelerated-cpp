@@ -16,4 +16,8 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 ### Extension:
 
 ### New Concepts:
-* 
+* Defining a function which has a function of an established type an argument
+* Using the find() function to search for the position of a specific value in a container
+* Using transform() function to apply a function to multiple values of a container, specifying where they should be written to.
+* Using the back_inserter() function to prepare an iterator poining to the end of a container in order to append new values to it.
+* Using remvoe_copy() to extract values of a container without modifying it, specifying specifying where they should be written to.
