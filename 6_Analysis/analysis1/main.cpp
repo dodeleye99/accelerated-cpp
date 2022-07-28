@@ -134,19 +134,7 @@ int main()
 
     // Analysis #3: "optimistic" homework grading scheme - uses standard grading scheme, but ignores homework not done.
     write_analysis("Turned-in homework grading scheme", optimistic_grade, did, didnt);
-
-    // cout << "\n(Standard grading scheme) median final grade of students who:" << endl;
-    // cout << "Did all homework:       " << analysis(did, grade_aux) << endl;
-    // cout << "Didn't do all homework: " << analysis(didnt, grade_aux) << endl;
-
-    // cout << "\n(Average homework grading scheme) median final grade of students who:" << endl;
-    // cout << "Did all homework:       " << analysis(did, average_grade_aux) << endl;
-    // cout << "Didn't do all homework: " << analysis(didnt, average_grade_aux) << endl;
-
-    // cout << "\n(Turned-in homework grading scheme) median final grade of students who:" << endl;
-    // cout << "Did all homework:       " << analysis(did, optimistic_grade) << endl;
-    // cout << "Didn't do all homework: " << analysis(didnt, optimistic_grade) << endl;
-
+    
     return 0;
 }
 /**
