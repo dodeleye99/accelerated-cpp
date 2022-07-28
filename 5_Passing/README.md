@@ -14,9 +14,9 @@ An extension of the student records system established in Chapter 4. It now dist
 * The * operator, used to get the value that an iterator is pointing to.
 * The -> operator, used to get access a member of the value pointed to by an iterator (equivalent to (*iterator).member_name)
 * Deleting an element of a container
-* The list data structure, implementing a linked list.
+* The *list* data structure, implementing a linked list.
 * Determining which data container (particularly, vector or list) would be most efficient to use, by acknowleing their pros and cons.
-* Reading an single line of input text.
+* Reading a single line of input text.
 * Creating a substring out of a given string.
 * Converting integer to string, and padding with leading zeros.
 * Pushing the contents of a vector into another (container "concatenation").
