@@ -34,3 +34,7 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 * Using stable_partition() to rearrange the elements of a container into two halves, according to a given predicate.
 * Using equal() to determine whether two sequences marked by iterators match.
 * Reverse iterators, which iterate from the end of a container all the way back to the start.
+* Static variables
+* isalnum()
+* isalpha()
+* search()
