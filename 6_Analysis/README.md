@@ -15,9 +15,16 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 ### Extension:
 2) **passing** revisits the pass-fail system established in Chapter 5. It explores a few standard library algorithms to reimplement the functions used to separate passing and failing students (see **passing/main.cpp** and its comments). These new implementations work in such a way that the containers holding the student records are not inserted into or deleted from, making vectors the prefered container-type rather than lists.
 
+3) **split.cpp** uses iterators and a standard library algorithm to reimplement in fewer lines of code the sentence splitting function established in the Chapter 5 extension.
+
+4) **palindrone.cpp** consists of a function that uses standard library algoirthms to easily determine whether a string is a palindrome (spelled the same way front to back and back to front).
+
+5) **find_urls.cpp** uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
+
 ### New Concepts:
 * Defining a function which has a function of an established type an argument
 * Using the find() function to search for the position of a specific value in a container
+    * Using find_if() to search for the position of a value that passes a specific predicate
 * Using transform() function to apply a function to multiple values of a container, specifying where they should be written to.
 * Using the back_inserter() function to prepare an iterator poining to the end of a container in order to append new values to it.
 * Using remove_copy() to disregard values that match particular value from a container without modifying it, specifying where the remainining values should be written to.
