@@ -19,7 +19,7 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 
 4) **palindrone.cpp** consists of a function that uses standard library algoirthms to easily determine whether a string is a palindrome (spelled the same way front to back and back to front).
 
-5) **find_urls.cpp** uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
+5) **url_finder** uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
 
 ### New Concepts:
 * Defining a function which has a function of an established type an argument
@@ -34,6 +34,6 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 * Using stable_partition() to rearrange the elements of a container into two halves, according to a given predicate.
 * Using equal() to determine whether two sequences marked by iterators match.
 * Reverse iterators, which iterate from the end of a container all the way back to the start.
-* Static variables
+* Static variables, which are allocated only once, preserved in its scope of declaration for the entirety of the program.
 * Functions which determine the kind of character a char object represents.
 * search() to find the location of a strict sequence of values in a container
