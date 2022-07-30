@@ -1,0 +1,21 @@
+###################################################################################
+Input lines of text, followed by end-of-file, to generate a cross-reference list:
+the quick
+brown fox jumps over
+the lazy dog and the giant
+cat
+^D
+=====================
+Cross-reference list:
+=====================
+'and'     occurs on line(s): 3
+'brown'   occurs on line(s): 2
+'cat'     occurs on line(s): 4
+'dog'     occurs on line(s): 3
+'fox'     occurs on line(s): 2
+'giant'   occurs on line(s): 3
+'jumps'   occurs on line(s): 2
+'lazy'    occurs on line(s): 3
+'over'    occurs on line(s): 2
+'quick'   occurs on line(s): 1
+'the'     occurs on line(s): 1, 3, 3
