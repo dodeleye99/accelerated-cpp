@@ -5,6 +5,7 @@ A map is a container that consisting of key-value pairs. It can be thought of as
 
 ### Directories of Code:
 1) **count_words.cpp** revisits the word counting program first estabished in the extension of Chapter 3. As before, it takes seqnences of words and outputs the number of occurances of each word. This time, however, it incorporates the map data structure to give an easier solution, while outputting the results in alphabetical order.
+2) **x_ref** takes lines of text as input and outputs a cross-reference for each word in the text.
 
 ### Extension:
 
