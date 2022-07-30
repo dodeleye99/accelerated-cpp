@@ -15,3 +15,4 @@ A map is a container that consisting of key-value pairs. It can be thought of as
 * Iterators on maps, each pointing to an object which has two members refering to the key and the value respectively
 * Specifying default parameter values of a function
 * Recursion, using a function within itself to breaking down the problem being solved into smaller, more managable parts
+* Generating random integers
