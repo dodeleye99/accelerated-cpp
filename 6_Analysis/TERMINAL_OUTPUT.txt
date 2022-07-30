@@ -26,4 +26,33 @@ Didn't do all homework: 51
 (Turned-in homework grading scheme) - median final grade of students who:
 Did all homework:       84
 Didn't do all homework: 65.5
-###########################################################################################################################
+########################################################################################################################
+############################# Example of analysis1 Terminal Output #####################################################
+Input lines of text to extract any URLs found in each:
+
+There exist plenty of resources to learn C++, most of which can be found by simply browsing from http://www.google.com. In particular, one can find tutorials for free by visiting https://www.learncpp.com
+For a reference, visit https://en.cppreference.com or https://cplusplus.com.
+Useful development tools for producing C++ source code can be found from the links - https://www.kdevelop.org, https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-cc-developers, https://code.visualstudio.com, https://developer.apple.com/xcode/ (MacOS only), and https://netbeans.apache.org/download/.
+For books covering C++, plenty can be found from https://www.amazon.co.uk, such as those found from the following links:
+https://www.amazon.co.uk/C-Programming-Language-Bjarne-Stroustrup/dp/0321958322,
+https://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X,
+https://www.amazon.co.uk/Tour-C-Depth/dp/0321958314,
+https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Compudp/0321334876;
+The website of the creator of C++ can be found by visiting the link - https://www.stroustrup.com/index.html.
+^D
+URLs found: 
+http://www.google.com.
+https://www.learncpp.com
+https://en.cppreference.com
+https://cplusplus.com.
+https://www.kdevelop.org,
+https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-cc-developers,
+https://code.visualstudio.com,
+https://developer.apple.com/xcode/
+https://netbeans.apache.org/download/.
+https://www.amazon.co.uk,
+https://www.amazon.co.uk/C-Programming-Language-Bjarne-Stroustrup/dp/0321958322,
+https://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X,
+https://www.amazon.co.uk/Tour-C-Depth/dp/0321958314,
+https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Computing/dp/0321334876;
+https://www.stroustrup.com/index.html.
