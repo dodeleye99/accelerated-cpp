@@ -1,5 +1,6 @@
 // small C++ program takes lines of text and counts the number of times each word occurs.
 #include <algorithm>
+#include <cctype>
 #include <iostream>
 #include <map>
 #include <string>
@@ -10,6 +11,8 @@ using std::endl;
 using std::map;
 using std::max;
 using std::string;
+using std::ispunct;
+
 
 // creates a blank-space string to be used for padding the output
 string pad_str(string s, string::size_type pad_factor)
@@ -20,6 +23,7 @@ string pad_str(string s, string::size_type pad_factor)
     return string(pad_factor - s.size() + 1, ' ');
 
 }
+
 int main()
 {
     // declare string used to read user input into.
@@ -32,11 +36,27 @@ int main()
 
     cout << "Input any sequence of words, "
             "followed by end-of-file: " << endl;
-
+    
     // read the input, keeping track of each word and how often we see it
     while (cin >> s) {
-        maxlen = max(maxlen, s.size());
-        ++counters[s];
+
+        // remove any punctiuation symbols surrounding the word
+        while(!s.empty() && ispunct(s[0]))
+        {
+            s.erase(0);
+        }
+        while(!s.empty() && ispunct(s[s.size() - 1]))
+        {
+            s.erase(s.size() - 1);
+        }
+
+        if (!s.empty()) {
+            maxlen = max(maxlen, s.size());
+            // using the word as a key, increment the count of the word
+            // (if the map does not yet have the key, it is created first with initial value 0)
+            ++counters[s];
+        }
+
     }
     cout << endl;
 
