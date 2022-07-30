@@ -12,3 +12,4 @@ A map is a container that consisting of key-value pairs. It can be thought of as
 
 ### New Concepts:
 * The map data structure, as explained above.
+* Specifying default parameter values of a function
