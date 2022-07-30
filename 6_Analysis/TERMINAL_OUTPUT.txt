@@ -37,7 +37,7 @@ For books covering C++, plenty can be found from https://www.amazon.co.uk, such 
 https://www.amazon.co.uk/C-Programming-Language-Bjarne-Stroustrup/dp/0321958322,
 https://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X,
 https://www.amazon.co.uk/Tour-C-Depth/dp/0321958314,
-https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Compudp/0321334876;
+https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Compu21334876.
 The website of the creator of C++ can be found by visiting the link - https://www.stroustrup.com/index.html.
 ^D
 
@@ -55,5 +55,5 @@ https://www.amazon.co.uk,
 https://www.amazon.co.uk/C-Programming-Language-Bjarne-Stroustrup/dp/0321958322,
 https://www.amazon.co.uk/Accelerated-Practical-Programming-Example-Depth/dp/020170353X,
 https://www.amazon.co.uk/Tour-C-Depth/dp/0321958314,
-https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Computing/dp/0321334876;
+https://www.amazon.co.uk/Effective-Specific-Programs-Professional-Compudp/0321334876.
 https://www.stroustrup.com/index.html.
