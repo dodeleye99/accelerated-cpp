@@ -1,0 +1,43 @@
+Input a line of text to have each of its words written line by line. To finally terminate, input end-of-file:
+
+Learning to program in C++ is surely demanding, yet it is so much fun! 
+
+Learning
+to
+program
+in
+C++
+is
+surely
+demanding,
+yet
+it
+is
+so
+much
+fun!
+
+Templates are certainly a powerful tool, but misusing them can cause problems, so be careful!
+
+Templates
+are
+certainly
+a
+powerful
+tool,
+but
+misusing
+them
+can
+cause
+problems,
+so
+be
+careful!
+
+     Will    it    rain   tomorrow?
+
+Will
+it
+rain
+tomorrow?
