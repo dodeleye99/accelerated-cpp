@@ -21,7 +21,8 @@ using std::vector;
 
 
 // mark the length of maximum word for padding
-static string::size_type maxlen = 0;
+// (defined in "global" scope since both main() and xref() need to accesss it)
+string::size_type maxlen;
 
 
 // find all the lines that refer to each word in the input
@@ -33,7 +34,8 @@ map<string, vector<int> > xref(istream& in, vector<string> find_words(const stri
     int line_number = 0;
     // create a map to hold line references for each word.
     map<string, vector<int> > ret;
-
+        
+    maxlen = 0;
 
     // read the next line
     while (getline(in, line)) {
