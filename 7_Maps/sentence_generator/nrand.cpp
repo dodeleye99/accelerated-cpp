@@ -1,10 +1,13 @@
-#include <cstdlib>          // defines rand, RAND_MAX
+#include <cstdlib>          // defines rand, srand, RAND_MAX, NULL
+#include <ctime>            // defines time
 #include <stdexcept>        // defines domain_error
 
 #include "nrand.h"
 
 using std::domain_error;
 using std::rand;
+using std::srand;
+using std::time;
 
 
 /**
@@ -16,14 +19,23 @@ using std::rand;
  **/
 int nrand(int n)
 {
+    // set a flag for initialising the seed.
+    static bool init_seed = false;
+
     // n must to be a positive integer, but also no bigger than RAND_MAX 
     // (RAND_MAX = 2147483647, the cap for int types as well as the rand() function).
     if (n <= 0 || n > RAND_MAX)
         throw domain_error("Argument to nrand is out of range");
     
+    // if not done so yet, set the random seed, using the current time.
+    if(!init_seed) {
+        srand(time(NULL));
+        // change the flag, as the seed only needs to be set once.
+        init_seed = true;
+    }
+
     // 1) Partition
     const int bucket_size = RAND_MAX / n;
-
 
     // 2) Begin computing random numbers
     int r;
