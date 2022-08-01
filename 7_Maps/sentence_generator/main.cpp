@@ -130,7 +130,7 @@ vector<string> gen_sentence(const Grammar& g)
 
 int main()
 {   
-    // The number of sentences to randomly generate from the grammar
+    // the number of sentences to randomly generate from the grammar
     int n = 5;
     
     // promt the user
@@ -142,13 +142,16 @@ int main()
 
     cout << "\nWrite each rule you would like to add to the grammar in the following form:" << endl;
     cout << "<rule-category> rule-definition" << endl;
-    cout << "(Be sure to add AT LEAST ONE <sentence> rule to define the sentence(s) the grammar outputs):\n" << endl;
+    cout << "\n(Be sure to add AT LEAST ONE <sentence> rule to define the sentence(s) the grammar outputs):\n" << endl;
 
     // receive the grammar
     Grammar g = read_grammar(cin);
 
-    // Prepare to generate n random sentences.
-    cout << "\nGenerating " << n << " random sentences:\n" << endl;
+    // prepare to generate n random sentences.
+    cout << endl;
+    cout << "==============================" << endl;
+    cout << "Generating " << n << " random sentences:" << endl;
+    cout << "==============================" << endl;
 
     for(int i=0; i<5; ++i) 
     {
