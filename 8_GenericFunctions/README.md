@@ -20,3 +20,4 @@ The twist is that the integer-typed zero returned by the main() function is repl
 * Specifying the type parameter of a function template call, necessary when it cannot be inferred implicitly.
 * Defining namespaces to group related names together in a new scope.
 * Output (write) iterators, that can reassign (but may not be able to read) the values that they point to.
+* Input and output stream iteratators, used to read from the standand input stream and write to the standard output stream respectively.
