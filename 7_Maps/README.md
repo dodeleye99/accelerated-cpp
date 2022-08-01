@@ -8,11 +8,12 @@ A map is a container that consisting of key-value pairs. It can be thought of as
 2) **x_ref** takes lines of text as input and outputs a cross-reference for each word in the text.
 
 ### Extension:
-
+3) **sentence_generator** goes into much more depth in regards to maps and their potential. It takes as input lines of text that as a whole represent what is known as a grammar, used to define a language in a formal, organised way. Each line represents a rule specifying possible words and synatax the grammar allows.
+From the inputted grammar, a random sentence is generated.
 
 ### New Concepts:
 * The map data structure, as explained above.
 * Iterators on maps, each pointing to an object which has two members refering to the key and the value respectively.
 * Specifying default parameter values of a function.
 * Recursion, using a function within itself to breaking down the problem being solved into smaller, more managable parts.
-* Generating random integers.
+* Generating random numbers.
