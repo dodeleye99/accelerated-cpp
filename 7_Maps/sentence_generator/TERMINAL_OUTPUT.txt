@@ -1,0 +1,38 @@
+A grammar is an well-defined collection of rules used to definethe words and syntax that a sentence should have.
+
+Input a grammar by entering lines of text that each represent a rule.
+Exactly 5 randomly generated sentences from the grammar will then be outputted.
+
+Write each rule you would like to add to the grammar in the following form:
+<rule-category> rule-definition
+(Be sure to add AT LEAST ONE <sentence> rule to define the sentence(s) the grammar outputs):
+
+<noun> cat
+<noun> dog 
+<noun> table
+<noun> fox
+<noun> fence
+<noun-phrase> <noun>
+<noun-phrase> <adjective> <noun-phrase>
+<adjective> large
+<adjective> brown
+<adjective> absurd
+<adjective> lazy
+<verb> jumps
+<verb> sits 
+<adverb> quickly
+<adverb> slowly
+<adverb> quietly
+<adverb> loudly
+<location> on the stairs
+<location> under the sky
+<location> wherever it wants
+<sentence> the <noun-phrase> <adverb> <verb> <location>
+^D
+Generating 5 random sentences:
+
+the fox slowly sits on the stairs
+the absurd brown lazy cat quietly sits on the stairs
+the table quietly sits wherever it wants
+the large brown lazy brown fox slowly sits wherever it wants
+the dog loudly sits wherever it wants
