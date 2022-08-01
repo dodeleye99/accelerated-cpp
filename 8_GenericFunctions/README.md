@@ -11,10 +11,12 @@ Because of their special nature, the compiler automatically generates out of tem
 ### Directories of Code:
 1) **hello_world** represents a basic "Hello World" program, but implemented in an interesting way to demonstrate the use of function template.
 The twist is that the integer-typed zero returned by the main() function is replaced by a function that outputs zero with a type that matches a given type-parameter, which in this case must be int.
-
+2) **template_split**
 
 ### Extension:
 
 ### New Concepts:
 * Defining generic functions using templates, as explained above.
 * Specifying the type parameter of a function template call, necessary when it cannot be inferred implicitly.
+* Defining namespaces to group related names together in a new scope.
+* Output (write) iterators, that can reassign (but may not be able to read) the values that they point to.
