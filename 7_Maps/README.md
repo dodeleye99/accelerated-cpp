@@ -16,4 +16,5 @@ From the inputted grammar, five sentences are generated randomly.
 * Iterators on maps, each pointing to an object which has two members refering to the key and the value respectively.
 * Specifying default parameter values of a function.
 * Recursion, using a function within itself to breaking down the problem being solved into smaller, more managable parts.
-* Generating random numbers.
+* Generating random numbers, as well as setting random seeds using the current time.
+* do-while loops, essentially the same as while loops but the condition is checked AFTER the block of code in the loop is run.
