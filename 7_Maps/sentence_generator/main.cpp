@@ -133,7 +133,7 @@ int main()
     // the number of sentences to randomly generate from the grammar
     int n = 5;
     
-    // promt the user
+    // prompt the user
     cout << "A grammar is an well-defined collection of rules used to define"
             "the words and syntax that a sentence should have." << endl;
 
