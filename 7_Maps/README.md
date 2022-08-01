@@ -9,7 +9,7 @@ A map is a container that consisting of key-value pairs. It can be thought of as
 
 ### Extension:
 3) **sentence_generator** goes into much more depth in regards to maps and their potential. It takes as input lines of text that as a whole represent what is known as a grammar, used to define a language in a formal, organised way. Each line represents a rule specifying possible words and synatax the grammar allows.
-From the inputted grammar, a random sentence is generated.
+From the inputted grammar, five sentences are generated randomly.
 
 ### New Concepts:
 * The map data structure, as explained above.
