@@ -1,3 +1,4 @@
+############################### Example of sentence-split Terminal Output #############################################
 Input a line of text to have each of its words written line by line. To finally terminate, input end-of-file:
 
 Learning to program in C++ is surely demanding, yet it is so much fun! 
@@ -41,3 +42,4 @@ Will
 it
 rain
 tomorrow?
+####################################################################################################################
