@@ -28,9 +28,10 @@ Exactly 5 randomly generated sentences from the grammar will then be outputted.
 
 Write each rule you would like to add to the grammar in the following form:
 <rule-category> rule-definition
+
 (Be sure to add AT LEAST ONE <sentence> rule to define the sentence(s) the grammar outputs):
 
-<noun> cat                                       
+<noun> cat
 <noun> dog 
 <noun> table
 <noun> fox
@@ -52,11 +53,12 @@ Write each rule you would like to add to the grammar in the following form:
 <location> wherever it wants
 <sentence> the <noun-phrase> <adverb> <verb> <location>
 ^D
+==============================
 Generating 5 random sentences:
-
-the cat quickly jumps wherever it wants
-the brown dog quietly sits on the stairs
-the large absurd large lazy cat quickly sits wherever it wants
-the lazy brown absurd brown absurd dog loudly jumps under the sky
-the brown large fence quietly jumps under the sky
+==============================
+the cat loudly jumps on the stairs
+the lazy lazy fence loudly jumps on the stairs
+the cat quietly sits on the stairs
+the large absurd lazy lazy dog quietly sits wherever it wants
+the absurd large lazy cat quickly jumps under the sky
 #############################################################################################################
