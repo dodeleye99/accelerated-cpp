@@ -21,7 +21,6 @@ Cross-reference list:
 'the'     occurs on line(s): 1, 3, 3
 #############################################################################################################
 ############################### Example of sentence_generator Terminal Output################################
-
 A grammar is an well-defined collection of rules used to definethe words and syntax that a sentence should have.
 
 Input a grammar by entering lines of text that each represent a rule.
@@ -31,7 +30,7 @@ Write each rule you would like to add to the grammar in the following form:
 <rule-category> rule-definition
 (Be sure to add AT LEAST ONE <sentence> rule to define the sentence(s) the grammar outputs):
 
-<noun> cat
+<noun> cat                                       
 <noun> dog 
 <noun> table
 <noun> fox
@@ -55,9 +54,9 @@ Write each rule you would like to add to the grammar in the following form:
 ^D
 Generating 5 random sentences:
 
-the fox slowly sits on the stairs
-the absurd brown lazy cat quietly sits on the stairs
-the table quietly sits wherever it wants
-the large brown lazy brown fox slowly sits wherever it wants
-the dog loudly sits wherever it wants
+the cat quickly jumps wherever it wants
+the brown dog quietly sits on the stairs
+the large absurd large lazy cat quickly sits wherever it wants
+the lazy brown absurd brown absurd dog loudly jumps under the sky
+the brown large fence quietly jumps under the sky
 #############################################################################################################
