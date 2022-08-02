@@ -20,6 +20,7 @@ The twist is that the integer-typed zero returned by the main() function is repl
 
 ### References:
 4) **iter_categories.cpp** acts as a reference file to give descriptions of all the different kinds of iterators, each with function templates demonstrating their use.
+5) **algorithms.cpp** shows implementations of the majority of the <algorithm> functions seen in Chapter 6, using templates with appropriate type-parameter names for the type of iterators expected for each algorithm.
 
 ### New Concepts:
 * Defining generic functions using templates, as explained above.
