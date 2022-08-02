@@ -12,7 +12,7 @@ Because of their special nature, the compiler automatically generates out of tem
 1) **hello_world** represents a basic "Hello World" program, but implemented in an interesting way to demonstrate the use of function template.
 The twist is that the integer-typed zero returned by the main() function is replaced by a function that outputs zero with a type that matches a given type-parameter, which in this case must be int.
 2) **sentence_split** returns to the splitting functions defined and used in previous chapters, this time implementing it using a template that allows the function to be applied to any output iterator.
-3) **stream_iterators** explores how iterators on input and output streams can be used to read input and write output respectively only of a single type, in this case integers.
+3) **int_reader** explores how iterators on input and output streams can be used to read input and write output respectively only of a single type, in this case integers.
 
 ### Extension:
 
