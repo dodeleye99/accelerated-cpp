@@ -18,6 +18,9 @@ The twist is that the integer-typed zero returned by the main() function is repl
 
 ### Extension:
 
+### References:
+4) **iter_categories.cpp** acts as a reference file to give descriptions of all the different kinds of iterators, each with function templates demonstrating their use.
+
 ### New Concepts:
 * Defining generic functions using templates, as explained above.
 * Specifying the type parameter of a function template call, necessary when it cannot be inferred implicitly.
