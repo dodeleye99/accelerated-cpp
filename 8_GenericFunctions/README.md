@@ -22,6 +22,10 @@ The twist is that the integer-typed zero returned by the main() function is repl
 * Defining generic functions using templates, as explained above.
 * Specifying the type parameter of a function template call, necessary when it cannot be inferred implicitly.
 * Defining namespaces to group related names together in a new scope.
-* Input (read) iterators, that can access/read (but may not be able to reassign) the values that they point to.
-* Output (write) iterators, that can reassign (but may not be able to read) the values that they point to.
+* The different categories, or 'tiers', of iterators:
+    * Input iterators         - sequential read-only access
+    * Output iterators        - sequential write-only access
+    * Forward iterators       - sequential read-write access
+    * Bidirectional iterators - reversible access
+    * Random access iterators - random (any-point) access (most powerful iterators)
 * Input and output stream iterators, used to sequentially read from an input stream and to write to an output stream respectively.
