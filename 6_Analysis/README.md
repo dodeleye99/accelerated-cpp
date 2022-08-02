@@ -22,7 +22,7 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 5) **url_finder** uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
 
 ### New Concepts:
-* Defining a function which has a function of an established type an argument
+* Defining a function which has as one of its input parameters another function (or more precisely, a function pointer) of an established type.
 * Using the find() function to search for the position of a specific value in a container
     * Using find_if() to search for the position of a value that passes a specific predicate
 * Using transform() function to apply a function to multiple values of a container, specifying where they should be written to.
