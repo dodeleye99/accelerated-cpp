@@ -17,15 +17,15 @@ Comparing the final grades between students who did all homework and those who d
 
 (Standard grading scheme) - median final grade of students who:
 Did all homework:       84
-Didn't do all homework: 49.5
+Didn't do all homework: 50.2
 
 (Average homework grading scheme) - median final grade of students who:
-Did all homework:       83
-Didn't do all homework: 51
+Did all homework:       83.4
+Didn't do all homework: 51.6
 
 (Turned-in homework grading scheme) - median final grade of students who:
 Did all homework:       84
-Didn't do all homework: 65.5
+Didn't do all homework: 65.6
 ########################################################################################################################
 ############################# Example of analysis1 Terminal Output #####################################################
 Input lines of text to extract any URLs found in each:
