@@ -336,6 +336,7 @@ Fw remove(Fw b, Fw e, T t)
  * Rearranges a sequence bounded by iterators [b, e) into two halves using a predicate p.
  * The first half will consist of values that pass the predicate, 
  * while the second half which follows will consist of values that fail it.
+ * (Note that the relative order in the second half may not be preserved.)
  * 
  * It returns an iterator pointing to the end of the first half (i.e the beginning of the second half),
  * giving the dividing line in the partition.
