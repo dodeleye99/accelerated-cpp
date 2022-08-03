@@ -75,7 +75,7 @@ double optimistic_grade(const Student_info& s)
  **/
 double analysis(const vector<Student_info>& students, double grading_scheme(const Student_info&))
 {
-    vector<int> grades;
+    vector<double> grades;
     transform(students.begin(), students.end(),
               back_inserter(grades), grading_scheme);
 
