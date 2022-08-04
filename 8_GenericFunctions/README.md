@@ -8,7 +8,7 @@ Generic functions are naturally based around the concept of polymorphism, the ab
 
 Because of their special nature, the compiler automatically generates out of templates separate functions each with parameter types that match the calls to the template found in the source code. For this reason template functions must be defined in the same file that it was declared. Therefore, we usually must not only declare, but also implement templates in a header file rather than a C++ source file.
 
-Iterators are also explored in greater depth, which themselves are built upon templates.
+Iterators are also explored in much greater depth, which themselves are built upon templates.
 
 ### Directories of Code:
 1) **hello_world** represents a basic "Hello World" program, but implemented in an interesting way to demonstrate the use of function template.
