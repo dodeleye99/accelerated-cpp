@@ -12,7 +12,7 @@ In C++, they can be defined using either the **'class'** keyword or the **'struc
 
 
 ### Directories of Code:
-1)  **records1.cpp** returns to the student grading system established in earlier chapters. It now uses a class rather than a data structure to represent the student records, which makes it possible to define (member) functions specific for each student record for initialising their data elements and for calculating their grades.
+1)  **records1.cpp** returns to the student grading system established in earlier chapters. It now uses a class rather than a data structure to represent the student records, which makes it possible to define (member) functions specific for each student record for initialising their data elements and for calculating their grades, as well as determining whether a student record is valid due to insufficient grades (in particular, homework) being inputted.
 
 ### Extensions:
 
