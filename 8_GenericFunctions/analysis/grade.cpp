@@ -23,7 +23,7 @@ double grade(int midterm, int final, const vector<int>& hw)
     if (hw.size()== 0)
         throw domain_error("student has done no homework");
     
-    return grade(midterm, final, median(hw.begin(), hw.end()));
+    return grade(midterm, final, median<int>(hw.begin(), hw.end()));
 }
 
 double grade(const Student_info& s)
@@ -38,7 +38,7 @@ double average_grade(int midterm, int final, const vector<int>& hw)
     if (hw.size()== 0)
         throw domain_error("student has done no homework");
     
-    return grade(midterm, final, average(hw.begin(), hw.end()));
+    return grade(midterm, final, average<int>(hw.begin(), hw.end()));
 
 }
 
