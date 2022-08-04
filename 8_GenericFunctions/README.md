@@ -15,8 +15,6 @@ Iterators are also explored in much greater depth, which themselves are built up
 The twist is that the integer-typed zero returned by the main() function is replaced by a function that outputs zero with a type that matches a given type-parameter, which in this case must be int.
 2) **sentence_split** returns to the splitting functions defined and used in previous chapters, this time implementing it using a template that allows the function to be applied to any output iterator.
 3) **int_reader** explores how iterators on input and output streams can be used to read input and write output respectively only of a single type, in this case integers.
-
-### Extension:
 4) **analysis** returns to the grade analysis program established in Chapter 6. Previously the median and average functions were each given two implementations so that they can receive either a vector of ints or doubles. Now they each use a single template which takes two iterators respectively pointing to the start and the end of a container, containing the values to apply the function to.
 
 ### References:
