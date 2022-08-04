@@ -1,4 +1,4 @@
-# Chapter 8: Classes
+# Chapter 9: Classes
 
 This chapter introduces the concept of **classes**, which allow one to implement their own types to be used in other parts of the program, 
 or reused in other programs altogether.
