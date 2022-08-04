@@ -10,11 +10,12 @@
 
 
 /**
- * Calculates the average of the values in a sequence bound by iterators [b, e)
+ * Calculates the average of the (assumed numerical typed T) values 
+ * in a sequence bound by iterators [b, e)
  * 
  * Iterator required: input iterator 
  **/
-template<class In> 
+template<class T, class In> 
 double average(In b, In e)
 {
     // throw an error if iterators are the same (empty sequence)
@@ -28,7 +29,7 @@ double average(In b, In e)
      * 
      * Then divide by the distance/difference between the iterators to get the average
      **/
-    return std::accumulate(b, e, zero<double>()) / std::distance(b, e);
+    return double(std::accumulate(b, e, zero<T>())) / (std::distance(b, e));
 }
 
 #endif
