@@ -4,9 +4,7 @@ An extension of the grading system established in Chapter 3. Rather than only th
 
 The data inputted for each student are grouped together into a new data structure called Student_info, and placed into a vector representing the data of each student. 
 
-The input grades are now restricted to integers rather than decimals, to prevent the strange behaviour illustrated and explained here: 
-
-https://stackoverflow.com/questions/44688567/why-is-iostream-cutting-off-the-first-letter-in-certain-words
+The input grades are now restricted to integers rather than decimals, to prevent the strange behaviour illustrated and explained [here](https://stackoverflow.com/questions/44688567/why-is-iostream-cutting-off-the-first-letter-in-certain-words).
 
 ### Directories of Code:
 1) **records1** containing only **main.cpp** does as explained above.
