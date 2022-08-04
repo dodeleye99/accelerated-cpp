@@ -24,7 +24,7 @@ istream& read(istream& is, Student_info& s)
     return is;
 }
 
-// read howework grades from an input stream into a vector<double>
+// read howework grades from an input stream into a vector<int>
 istream& read_hw(istream& in, vector<int>& hw) 
 {
     // Only proceed to read if there is is a problem with the input stream already.
