@@ -70,7 +70,7 @@ double optimistic_grade(const Student_info& s)
     if(nonzero_hw.empty())
         return grade(s.midterm, s.final, 0);
     else
-        return grade(s.midterm, s.final, median(nonzero_hw.begin(), nonzero_hw.end()));
+        return grade(s.midterm, s.final, median<int>(nonzero_hw.begin(), nonzero_hw.end()));
 }
 
 /**
@@ -83,7 +83,7 @@ double analysis(const vector<Student_info>& students, double grading_scheme(cons
     transform(students.begin(), students.end(),
               back_inserter(grades), grading_scheme);
 
-    return median(grades.begin(), grades.end());
+    return median<double>(grades.begin(), grades.end());
 }
 /**
  * This procedure is used to output the results of an analysis comparing the final grades of students who did all 
