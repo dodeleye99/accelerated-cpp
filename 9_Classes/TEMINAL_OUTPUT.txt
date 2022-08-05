@@ -1,0 +1,51 @@
+How you would like to output the student records?
+1	ALL
+2	PASS + FAIL
+
+Input the digit representing your choice: two
+
+Invalid option. Enter again:    2
+
+Please enter the records of each student (name, midterm and final exam grades, homework grades), followed by end-of-file: 
+Red 85 76 97 65 76 54 85 56 75 59
+Blue 65 87 76 86 93 85 71 96 99 67
+Green 65 86 92 75 96 86 63 63 96 99
+Yellow 54 46 
+Orange 65 65 24 61 76 36 64 86 56 65
+Purple 64 45 0       
+Pink  96 86 76 84 67 86 86 87
+Black 66 76 76 67 97 56 96
+White 85 46 62 79 97 56
+Grey 45 40  
+Gold 67 86 79 93 78 75 78 93 76 75 97
+Silver 85 69 86 74 76 59 76 86 96 85 97 
+Bronze 96 86 97 86 85 81 69 87 76 96 90
+Cyan 71 62 56 0 62 0 0 65 67 80 75
+Brown 72 81 75 86 75 81 76 87 96 85
+^D
+--- STUDENTS WHO PASSED ---
+===========================
+STUDENT NAME      GRADE    
+===========================
+Black             74
+Blue              82
+Bronze            88
+Brown             80
+Cyan              63.8
+Gold              79
+Green             83
+Orange            64
+Pink              87.6
+Red               75.4
+Silver            78.6
+White             63.6
+===========================
+
+--- STUDENTS WHO FAILED ---
+===========================
+STUDENT NAME      GRADE    
+===========================
+Grey              (no h/w)
+Purple            30.8
+Yellow            (no h/w)
+===========================
