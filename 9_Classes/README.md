@@ -16,13 +16,10 @@ In C++, they can be defined using either the **'class'** keyword or the **'struc
 
     As usual, the program asks the user to input student grades and outputs the final grade for each student.
 
-2)  **records2.cpp** expands upon the program, by giving the user the option to have the output separated into passing grades and failing grades. It does so by asking the user to pick out of two options: output the records the usual way, or to output all the passing grades first, followed by the failing grades.
+### Extensions:
+2)  **records2.cpp** expands upon the usual program, by improving the aesthetics of the output, but more importantly giving the user the option to have the output separated into passing grades and failing grades. It does so by asking the user to pick out of two options: output the records the usual way, or to output all the passing grades first, followed by the failing grades.
     
     The class has been modified to only store data need to keep. Instead of storing the students grades inputted by the user, it calculates the final grade upon reading the record and stores it in a member, and uses another member to indicate whether the grades read are valid.
-
-### Extensions:
-
-### References:
 
 ### New Concepts:
 * Class types, as explained above.
