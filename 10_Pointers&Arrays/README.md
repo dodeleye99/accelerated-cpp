@@ -17,14 +17,16 @@ In C++, arrays can be made to behave as pointers; anytime the name of an array i
 It is not possible, however, to assign an entire array to another value, even another array. On the left-side of the assignment `=` operator, it will not behave as a pointer, but as an array to be modified using the `[]` operator as shown above, unless it was declared using the `const` keyword, in which none of its elements can be changed again.
 
 ### Directories of Code:
-1) `main_args.cpp`
+1) [`main_args`](main_args) introduces a second form of the `main()` function, which takes two parameters that represent text inputted into command line immediately following the execution call. The program demonstrates its use, by outputting text the user entered.
 
 ### Extensions:
 
 ### References:
 3) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file)
+
 ### New Concepts:
 * Defining pointers and arrays in C++, as shown above.
 * Defining a 'nested' pointer: a pointer that 'points' to a pointer.
 * The address-of operator `&`, used to obtain the address of an existing object that can then be assigned to a pointer.
 * Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively.
+* The two-parameter form of the `main()` function, which uses command-line arguments the user can pass to it when executing the program.
