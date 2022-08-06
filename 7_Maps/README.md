@@ -1,6 +1,6 @@
 # Chapter 7: Maps
 
-The student grading system is put on hold in this chapter to focus entirely on the **map** data structure in C++.
+The student grading system is put on hold in this chapter to focus entirely on the **`map`** data structure in C++.
 A map is a container that consisting of **key-value pairs**. It can be thought of as a vector where its indices can be represented by any single type, such as a string.
 
 ### Directories of Code:
@@ -12,9 +12,9 @@ A map is a container that consisting of **key-value pairs**. It can be thought o
 From the inputted grammar, five sentences are generated randomly.
 
 ### New Concepts:
-* The map data structure, as explained above.
+* The `map` data structure, as explained above.
 * Iterators on maps, each pointing to an object which has two members refering to the key and the value respectively.
 * Specifying default parameter values of a function.
 * Recursion, using a function within itself to breaking down the problem being solved into smaller, more managable parts.
 * Generating random numbers, as well as setting random seeds using the current time.
-* do-while loops, essentially the same as while loops but the condition is checked AFTER the block of code in the loop is run.
+* `do...while` loops, essentially the same as while loops but the condition is checked AFTER the block of code in the loop is run.
