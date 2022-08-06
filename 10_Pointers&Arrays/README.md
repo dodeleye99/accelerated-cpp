@@ -22,7 +22,7 @@ It is not possible, however, to assign an entire array to another value, even an
 ### Extensions:
 
 ### References:
-3) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation ([see comments at the bottom of the file](duplicate_chars.cpp#L26-L69)), which is used to carry it out.
+3) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file), which is used to carry it out.
 
 ### New Concepts:
 * Defining pointers and arrays in C++, as shown above.
