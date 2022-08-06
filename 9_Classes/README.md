@@ -8,7 +8,7 @@ Together the data and functions are called the members of the class. Each of the
 
 Therefore classes are based around the concept of **encapsulation**, the bundling of data and functions into a single entity, possibly limiting the access to some in order to provide layers of **abstraction** or a simplified interface between the inside and the outside of objects defined by the class.
 
-In C++, they can be defined using either the **'class'** keyword or the **'struct'** keyword, the difference being that the members of the class are private by default when declared with the 'class' keyword, while in the case of the 'struct' keyword they are public by default.
+In C++, they can be defined using either the **`class`** keyword or the **`struct`** keyword, the difference being that the members of the class are private by default when declared with the `class` keyword, while in the case of the `struct` keyword they are public by default.
 
 
 ### Directories of Code:
@@ -23,5 +23,5 @@ In C++, they can be defined using either the **'class'** keyword or the **'struc
 
 ### New Concepts:
 * Class types, as explained above.
-* Specifying the accessibility of class members using the **public** and **private** keywords.
+* Specifying the accessibility of class members using the `public` and `private` keywords.
 * Defining class constructors, functions used to initialise an object defined by the class. 
