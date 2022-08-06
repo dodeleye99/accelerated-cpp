@@ -1,4 +1,4 @@
-// outputs the command line arguments passed to the program
+// a program that outputs the command line arguments passed to the program
 #include <iostream>
 using std::cout;
 using std::endl;
