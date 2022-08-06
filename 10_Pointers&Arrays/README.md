@@ -2,7 +2,7 @@
 
 This chapter focuses on two concepts built into C++ that originated from the C programming language: pointers and arrays.
 
-* A **pointer** is a **random-access iterator** that holds the **address** (memory location) of an object. They are able to "point" to single objects, arrays of objects, and even functions. To define a pointer variable in C++, one has to specify the object type it will point to __followed__ by an asterix/star `*` character when first declaring it. This can the nested by adding another `*`, in that one can define a pointer that points to another pointer of a certain type.
+* A **pointer** is a **random-access iterator** that holds the **address** (memory location) of an object. They are able to "point" to single objects, arrays of objects, and even functions. To define a pointer variable in C++, one has to specify the object type it will point to _followed_ by an asterix/star `*` character _before_ the variable name when first declaring it. This can the nested by adding another `*`, in that one can define a pointer that points to another pointer of a certain type.
 
 * An **array** is a fixed-size, built-in **container** whose iterators are pointers (random-access). To declare an array variable, one has to specify the object type each of its values will be before writting variable name, after which one must specify the size of the array within closed brackes `[]`. They may also be initialised immediately (without needing to specify its size, leaving the closed brackets empty) by assigning it to a sequence of comma-separated values closed by curly brackets `{...}`.
 
