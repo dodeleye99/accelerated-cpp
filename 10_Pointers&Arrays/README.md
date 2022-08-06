@@ -25,3 +25,4 @@ It is not possible, however, to assign an entire array to another value, even an
 * Defining pointers and arrays in C++, as shown above.
 * Defining a 'nested' pointer: a pointer that 'points' to a pointer.
 * The address-of operator `&`, used to obtain the address of an existing object that can then be assigned to a pointer.
+* Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively.
