@@ -17,15 +17,15 @@ The final grade for the student is calculated as the sum of 20% of the midterm e
 
 ### New Concepts:
 * reading multiple inputs from the user.
-* floating-point 'double' numbers, for representing non-integer or decimal numbers.
-* the conditional (?) operator.
-* the divide operator, which has behaviour depending on the types of the numbers performed on (integer or decimal).
-* the modulus operator, computing the remainder after division between integers.
+* floating-point `double` numbers, for representing non-integer or decimal numbers.
+* the conditional `?` operator.
+* the divide `\` operator, which has behaviour depending on the types of the numbers performed on (integer or decimal).
+* the modulus `%` operator, computing the remainder after division between integers.
 * prescision manipulator for decimals.
-* the vector container, used to hold a collection of values of the same type.
+* the `vector` container, used to hold a collection of values of the same type.
 * indexing to access elements of a container.
 * sorting elements of a container.
-* iterators objects, pointing to the start and the end of a container.
+* iterator objects, pointing to the start and the end of a container.
 * passing a reference of a variable (rather than a copy as by default) to a function, allowing it to be modified in a different scope.
 * catching errors and initialising error objects.
 * input stream handling.
