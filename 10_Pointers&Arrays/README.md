@@ -6,7 +6,7 @@ This chapter focuses on two concepts built into C++ that originated from the C p
 
 * An **array** is a fixed-size, built-in **container** whose iterators are pointers (random-access). To declare an array variable, one has to specify the object type each of its values will be before writting variable name, after which one must specify the size of the array within closed brackes `[]`. They may also be initialised immediately (without needing to specify its size, leaving the closed brackets empty) by assigning it to a sequence of comma-separated values closed by curly brackets `{...}`.
 
-    In previous chapters arrays have actually been heavily used, though implicitly. In particular, a **string literal** is in reality a mnemonic for an array of characters, with a null pointer element `'\0'` at the end to indicate the end of the array.
+    In previous chapters arrays have actually been heavily used, though implicitly. In particular, a **string literal** is in reality a mnemonic for an array of characters, with a null pointer element `'\0'` at the end to indicate the end of the array. It can nevertheless be thought of as a "string".
 
 In C++, arrays can be made to behave as pointers; anytime the name of an array is used as a value, it is automatically converted to a pointer to the initial element of the array. The other elements can be obtained using any of the pointer operators for accessing values of a container:
 
