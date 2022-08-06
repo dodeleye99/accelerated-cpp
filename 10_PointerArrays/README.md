@@ -1,4 +1,4 @@
-# Chapter 9: Pointers and Arrays
+# Chapter 10: Pointers and Arrays
 
 This chapter focuses on two concepts built-in to C++ that originated from the C programming language: pointers and arrays.
 
