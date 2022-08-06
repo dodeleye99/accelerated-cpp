@@ -1,0 +1,5 @@
+#################### (Suppose the executable file is called "runme" and is located in current working directory) ##################
+####################          Terminal output of main_args, entering "./runme Learning to program in C++"        ##################
+Running ./runme...
+Learning to program in C++
+###################################################################################################################################
