@@ -14,3 +14,4 @@ Contains multiple C++ source code files for the "Hello World" program. They diff
 * Escape sequences
 * Manipulators
 * Namespaces and scopes
+* Directives (#include) to call standard library facilities.
