@@ -23,17 +23,17 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
 
 ### New Concepts:
 * Defining a function which has as one of its input parameters another function (or more precisely, a function pointer) of an established type.
-* Using the find() function to search for the position of a specific value in a container
-    * Using find_if() to search for the position of a value that passes a specific predicate
-* Using transform() function to apply a function to multiple values of a container, specifying where they should be written to.
-* Using the back_inserter() function to prepare an iterator poining to the end of a container in order to append new values to it.
-* Using remove_copy() to disregard values that match particular value from a container without modifying it, specifying where the remainining values should be written to.
-    * Using remove_copy_if() to disregard values that pass a predicate.
-    * Using remove_if() to write the remaining values to the same container, thus modifying it.
-* Using accumulate() to sum over the values of a container, beginning with an initial value that may not necessarily be 0.
-* Using stable_partition() to rearrange the elements of a container into two halves, according to a given predicate.
-* Using equal() to determine whether two sequences marked by iterators match.
+* Using the `find()` function to search for the position of a specific value in a container
+    * Using `find_if()` to search for the position of a value that passes a specific predicate
+* Using the `transform()` function to apply a function to multiple values of a container, specifying where they should be written to.
+* Using the `back_inserter()` function to prepare an iterator poining to the end of a container in order to append new values to it.
+* Using `remove_copy()` to disregard values that match particular value from a container without modifying it, specifying where the remainining values should be written to.
+    * Using `remove_copy_if()` to disregard values that pass a predicate.
+    * Using `remove_if()` to write the remaining values to the same container, thus modifying it.
+* Using `accumulate()` to sum over the values of a container, beginning with an initial value that may not necessarily be 0.
+* Using `stable_partition()` to rearrange the elements of a container into two halves, according to a given predicate.
+* Using `equal()` to determine whether two sequences marked by iterators match.
 * Reverse iterators, which iterate from the end of a container all the way back to the start.
 * Static variables, which are allocated only once, preserved in its scope of declaration for the entirety of the program.
 * Functions which determine the kind of character a char object represents.
-* search() to find the location of a strict sequence of values in a container
+* `search()` to find the location of a strict sequence of values in a container
