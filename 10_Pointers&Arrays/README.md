@@ -19,6 +19,8 @@ It is not possible, however, to assign an entire array to another value, even an
 ### Directories of Code:
 1) [`main_args`](main_args) introduces a second form of the `main()` function, which takes two parameters that represent text inputted into command line immediately following the execution call. The program demonstrates its use, by outputting text the user entered.
 
+2) [`file_copier`](file_copier) introduces the concept of file reading and writting. It takes as a command-line argument a file as input and copies its contents to another file. The user can also choose themselves which files to copy the input file to, by adding them as aditional command-line arguments.
+
 ### Extensions:
 
 ### References:
