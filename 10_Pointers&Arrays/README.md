@@ -21,6 +21,7 @@ It is not possible, however, to assign an entire array to another value, even an
 
 2) [`file_copier`](file_copier) introduces the concept of file reading and writting. It takes as a command-line argument a file as input and copies its contents to another file. The user can also choose themselves which files to copy the input file to, by adding them as aditional command-line arguments.
 
+3) `file_reader`
 ### Extensions:
 
 ### References:
