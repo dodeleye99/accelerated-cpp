@@ -30,3 +30,4 @@ It is not possible, however, to assign an entire array to another value, even an
 * The address-of operator `&`, used to obtain the address of an existing object that can then be assigned to a pointer.
 * Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively.
 * The two-parameter form of the `main()` function, which uses command-line arguments the user can pass to it when executing the program.
+* Reading from and writting to files using `ifstream` and `ofstream` objects respectively.
