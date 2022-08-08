@@ -39,6 +39,7 @@ It is not possible, however, to assign an entire array to another value, even an
 * Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively, allowing us to define arrays or pointers with a size only known during runtime.
 * The two-parameter form of the `main()` function, which uses command-line arguments the user can pass to it when executing the program.
 * Reading from and writting to files using `ifstream` and `ofstream` objects respectively.
+* Using the `ifstream::seekg()` member function to enable a file to be re-read from the beginning.
 * Contant valued arrays, which have elements that are read-only (cannot be modified)
 * Constant pointers, which cannot be made to point to another address.
 * Calculating the capacity of an array by doing basic division with the `sizeof()` function (more precisely, `sizeof(array) / sizeof(*array)`)
