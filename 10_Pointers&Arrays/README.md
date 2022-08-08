@@ -17,7 +17,7 @@ In C++, arrays can be made to behave as pointers; anytime the name of an array i
 It is not possible, however, to assign an entire array to another value, even another array. On the left-side of the assignment `=` operator, it will not behave as a pointer, but as an array to be modified using the `[]` operator as shown above, unless it was declared using the `const` keyword, in which none of its elements can be changed again.
 
 ### Directories of Code:
-1) [`main_args`](main_args) introduces a second form of the `main()` function, which takes two parameters that represent text inputted into command line immediately following the execution call. The program demonstrates its use, by outputting text the user entered.
+1) [`main_args`](main_args) introduces a second form of the `main()` function, which takes two parameters that represent text inputted into command line immediately following the execution call. The program demonstrates its use, by outputting the text the user entered.
 
 2) [`file_copier`](file_copier) introduces the concept of file reading and writting. It takes as a command-line argument a file as input and copies its contents to another file. The user can also choose themselves which files to copy the input file to, by adding them as aditional command-line arguments.
 
