@@ -25,9 +25,12 @@ It is not possible, however, to assign an entire array to another value, even an
 ### Extensions:
 
 ### References:
-5) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
+4) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
 
-6) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file), which is used to carry it out.
+5) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file), which is used to carry it out.
+
+6) [`string_list`](string_list) demonstrates how a list of strings can be implemented using arrays and pointers, by defining a class called `String_list`. The code found in the directory returns to the sentence splitting program established in earier chapters to show how this class can be used in place of a `vector<string>`.
+
 ### New Concepts:
 * Defining pointers and arrays in C++, as shown above.
 * Defining a 'nested' pointer: a pointer that 'points' to a pointer.
