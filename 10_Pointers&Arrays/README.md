@@ -23,7 +23,7 @@ It is not possible, however, to assign an entire array to another value, even an
 
 3) [`file_reader`](file_reader) receives one or more files as command-line arguments and outputs the contents of each one that exists.
 ### Extensions:
-4) [`records_1`](records_1) returns to the student grading system. It now assigns letter grades for each student based on their final grades (for example, a final grade in the inclusive range 80-83 is a `"B-"`), outputting it along with the numerical grade. It does this by creating two static arrays holding the numerical grade lower bounds and the letter grades respectively, with elements from each array that have matching indices corresponding to each other.
+4) [`records1`](records1) returns to the student grading system. It now assigns letter grades for each student based on their final grades (for example, a final grade in the inclusive range 80-83 is a `"B-"`), outputting it along with the numerical grade. It does this by creating two static arrays holding the numerical grade lower bounds and the letter grades respectively, with elements from each array that have matching indices corresponding to each other.
 
 ### References:
 5) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
