@@ -1,0 +1,16 @@
+========================================
+STUDENT NAME      GRADE     LETTER GRADE
+========================================
+Abbey             76.8      C
+Claire            77.8      C+
+David             71.0      C-
+James             81.4      B-
+Luke              (no h/w)
+Mark              (no h/w)
+Matthew           82.4      B-
+Paul              31.6      F
+Sam               83.2      B-
+Samuel            72.6      C-
+Tommy             91.8      A-
+Zoey              60.2      D
+========================================
