@@ -27,7 +27,12 @@ It is not possible, however, to assign an entire array to another value, even an
 
 5) [`records2`](records2) improves upon `records1` by now allowing the user to enter one or more input files containing student data as a command line argument, as well as an output file to write the results to. If no input files are specified, then the user must enter them the usual way. If input files were entered but none could be opened, the program will end with an approprate message. If no output directory is specified, a default one will be used.
 
-6) [`records3`](records3) improves upon `records2` by allowing the user to choose (not as a command-line argument but within the program) between outputting the grades the usual way, or outputting all the passing students followed by all the failing students (whose letter grades do not need to be mentioned, as they are all 'F'). It uses code that presents a more formal, organised way of representing the user's choice, by defining a class called `Options` (defined using the `struct` keyword to allow public access). It introduces the concept of function pointers as well as null pointers.
+6) [`records3`](records3) improves upon `records2` by allowing the user to choose (not as a command-line argument but within the program) between outputting the grades the usual way, or outputting all the passing students followed by all the failing students (whose letter grades do not need to be mentioned, as they will all be `"F"`). 
+
+    It uses code that presents a more formal, organised way of representing the user's choice, by defining a small class called `Options` (defined using    the `struct` keyword to allow public access). It holds two members, one representing text to briefly describe the option to the user, and the other representing the actual processing function for writting the grades. 
+    
+    It also introduces the concept of function pointers as well as null pointers.
+    
 ### References:
 7) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
 
