@@ -26,12 +26,14 @@ It is not possible, however, to assign an entire array to another value, even an
 4) [`records1`](records1) returns to the student grading system. It now assigns letter grades for each student based on their final grades (for example, a final grade in the inclusive range 80-83 is a `"B-"`), outputting it along with the numerical grade. It does this by creating two static arrays holding the numerical grade lower bounds and the letter grades respectively, with elements from each array that have matching indices corresponding to each other.
 
 5) [`records2`](records2) improves upon `records1` by now allowing the user to enter one or more input files containing student data as a command line argument, as well as an output file to write the results to. If no input files are specified, then the user must enter them the usual way. If input files were entered but none could be opened, the program will end with an approprate message. If no output directory is specified, a default one will be used.
+
+6) [`records3`](records3) improves upon `records2` by allowing the user to choose (not as a command-line argument but within the program) between outputting the grades the usual way, or outputting all the passing students followed by all the failing students (whose letter grades do not need to be mentioned, as they are all 'F'). It uses code that presents a more formal, organised way of representing the user's choice, by defining a class called `Options` (defined using the `struct` keyword to allow public access). It introduces the concept of function pointers as well as null pointers.
 ### References:
-6) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
+7) [`pointer_test.cpp`](pointer_test.cpp) demonstrates how pointers work by modifying the value of the variable through a pointer alone.
 
-7) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file), which is used to carry it out.
+8) [`duplicate_chars.cpp`](duplicate_chars.cpp) defines a function that takes a character pointer representing an array and outputs a pointer to an new, independent copy of the array. It introduces the concept of dynamic memory allocation (see comments at the bottom of the file), which is used to carry it out.
 
-8) [`string_list`](string_list) demonstrates how one may implement a list of strings using arrays and pointers, by defining a class called [`String_list`](string_list/String_list.h). The code found in the directory returns to the sentence splitting program established in earier chapters to show how this class can be used in place of a `vector<string>`.
+9) [`string_list`](string_list) demonstrates how one may implement a list of strings using arrays and pointers, by defining a class called [`String_list`](string_list/String_list.h). The code found in the directory returns to the sentence splitting program established in earier chapters to show how this class can be used in place of a `vector<string>`.
 
 ### New Concepts:
 * Defining pointers and arrays in C++, as shown above.
