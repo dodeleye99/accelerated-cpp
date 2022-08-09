@@ -3,3 +3,13 @@
 Running ./runme...
 Learning to program in C++
 ###################################################################################################################################
+#################### Terminal output of record3, entering "./runme class1.txt class_grades_pf.txt class2.txt" ########################
+How you would like to output the student records?
+1       ALL
+2       PASS + FAIL
+
+two 
+
+Invalid option. Enter again: 2
+
+Output written to 'class_grades_pf.txt'.
