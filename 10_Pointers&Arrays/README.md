@@ -29,7 +29,7 @@ It is not possible, however, to assign an entire array to another value, even an
 
 6) [`records3`](records3) improves upon `records2` by allowing the user to choose (not as a command-line argument but within the program) between outputting the grades the usual way, or outputting all the passing students followed by all the failing students (whose letter grades do not need to be mentioned, as they will all be `"F"`). 
 
-    It uses code that presents a more formal, organised way of representing the user's choice, by defining a small class called `Options` (defined using    the `struct` keyword to allow public access). It holds two members, one representing text to briefly describe the option to the user, and the other representing the actual processing function for writting the grades. 
+    It uses code that presents a more formal, organised way of representing each of the user's possible choices, by defining a small class called [`Option`](records3/Option.h) (defined using the `struct` keyword to allow public access). It holds two members, one representing text to briefly describe the option to the user, and the other representing the actual processing function for writting the grades. 
     
     It also introduces the concept of function pointers as well as null pointers.
     
