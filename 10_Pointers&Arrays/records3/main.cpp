@@ -39,11 +39,6 @@ using std::vector;
 #include "Student_info.h"
 #include "trim.h"
 
-// define type mnemonics
-typedef string::size_type str_sz;
-typedef vector<Student_info>::iterator v_iter;
-typedef vector<Student_info>::const_iterator v_citer;
-
 
 /**
  * Reads from an input stream student grade data and adds it to the end of a
@@ -51,7 +46,7 @@ typedef vector<Student_info>::const_iterator v_citer;
  * student name read so far, in order to updated and used for padding the output
  * later.
  **/
-void read_input(istream& in, vector<Student_info>& students, str_sz& maxlen)
+void read_input(istream& in, vector<Student_info>& students, string::size_type& maxlen)
 {   
     Student_info record;
 
@@ -112,7 +107,7 @@ Option choose_option()
  * Processes the user's option for how to output the student grades, 
  * writting the results to an output file at a given (relative) directory.
  **/
-bool do_option(const string& out_dir, const Option& opt, vector<Student_info>& students, str_sz& maxlen)
+bool do_option(const string& out_dir, const Option& opt, vector<Student_info>& students, string::size_type& maxlen)
 {   
 
     // Get the (pointer to the) function to be used to write the grades.
@@ -166,7 +161,7 @@ int main(int argc, char** argv)
     Student_info record;
     
     // record the length of the longest name, for padding the output
-    str_sz maxlen = 0;
+    string::size_type maxlen = 0;
 
     // represents the number of files that could be opened
     int success_count = 0;
