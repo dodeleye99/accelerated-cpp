@@ -14,7 +14,7 @@ This chapter also covers particular member functions and operators that may be d
 
 ### New Concepts:
 * Defining a template class, producing a family of classes differing only by a set of types associated with each class.
-* Defining operators on a class.
+* Defining operators on a class (as class members).
     *  `operator=`, which allows one to assign an object to a value using the `=` operator.
     *  `operator[]`, used to define an indexing operator to obtain the value at a given relative position in a container that a class may represent.
 * Defining special member functions of a class, which will automatically generated (**synthesised**) by the constructor if not explicitly defined in the class:
