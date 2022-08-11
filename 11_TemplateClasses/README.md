@@ -23,5 +23,5 @@ This chapter also covers particular member functions and operators that may be d
     * The **assignment operator** on a class, a special case of `operator=` that takes a constant reference of the same type (representing the right-hand side) and modifies the (left-hand side) object to match its state.
 * The differences between the concepts of initialisation (constructing a **new** object) and assignment (modifying a **pre-existing** object to match another one).
 * `allocator<T>` objects, which allows for runtime memory management of objects of type `T` in a more flexible, efficient way than using the `new` and `delete` operators, by allowing allocation/deallocation and construction/destruction to be done separately.
-* The `explicit` keyword, to prevent using a class constructor for automatic conversions of an object.
+* The `explicit` keyword, used to prevent any implicit calls of a particular class constructor, having to instead be written explicitly in order to used.
 * The `this` keyword in a class member function, which gives a pointer to the class object.
