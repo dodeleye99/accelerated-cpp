@@ -5,6 +5,7 @@ This chapter combines both of these concepts together, focusing on what are know
 
 They allow one to create a single definition of a class with a selection of data and function members that together utilise one or more type parameters to define them. This effectively results in a system of classes restricted only by the operations the class members require of the type parameters.
 
+This chapter also covers particular member functions and operators that may be defined on a class, as well as a more flexible method of memory management.
 ### Directories of Code:
 
 ### Extensions:
@@ -14,11 +15,13 @@ They allow one to create a single definition of a class with a selection of data
 ### New Concepts:
 * Defining a template class, producing a family of classes differing only by a set of types associated with each class.
 * Defining operators on a class.
-    *  `operator=`, which allows one to assign an object to a value using the `=` operator
+    *  `operator=`, which allows one to assign an object to a value using the `=` operator.
     *  `operator[]`, used to define an indexing operator to obtain the value at a given relative position in a container that a class may represent.
 * Defining special member functions of a class:
     * The **copy constructor**, a special constructor that takes constant reference of the same type and uses it to initialise the object.
     * The class **destructor**, used to specify how the object should be destroyed.
     * The **assignment operator** on a class, a special case of `operator=` that takes a constant reference of the same type (representing the right-hand side) and modifies the (left-hand side) object to match its state.
-* The `explicit` keyword, to prevent using a class constructor for automatic conversions.
+* The differences between the concepts of initialisation (constructing a **new** object) and assignment (modifying a **pre-existing** object to match another one).
+* `allocator<T>` objects, which allows for runtime memory management of objects of type `T` in a more flexible, efficient way than using the `new` and `delete` operators, by allowing allocation/deallocation and construction/destruction to be done separately.
+* The `explicit` keyword, to prevent using a class constructor for automatic conversions of an object.
 * The `this` keyword in a class member function, which gives a pointer to the class object.
