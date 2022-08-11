@@ -7,7 +7,7 @@ They allow one to create a single definition of a class with a selection of data
 
 This chapter also covers particular member functions and operators that may be defined on a class, as well as a more flexible method of memory management.
 ### Directories of Code:
-
+* [vec](vec) shows a simplified implementation of the `Vector<T>` template class.
 ### Extensions:
     
 ### References:
