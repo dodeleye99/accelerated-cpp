@@ -17,7 +17,7 @@ This chapter also covers particular member functions and operators that may be d
 * Defining operators on a class.
     *  `operator=`, which allows one to assign an object to a value using the `=` operator.
     *  `operator[]`, used to define an indexing operator to obtain the value at a given relative position in a container that a class may represent.
-* Defining special member functions of a class:
+* Defining special member functions of a class, which will automatically generated (**synthesised**) by the constructor if not explicitly defined in the class:
     * The **copy constructor**, a special constructor that takes constant reference of the same type and uses it to initialise the object.
     * The class **destructor**, used to specify how the object should be destroyed.
     * The **assignment operator** on a class, a special case of `operator=` that takes a constant reference of the same type (representing the right-hand side) and modifies the (left-hand side) object to match its state.
