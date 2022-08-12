@@ -11,6 +11,8 @@ This chapter also covers particular member functions and operators that may be d
 * [vec2](vec2) adds two more member functions to the class: 
     * `erase`, which deletes the element from the Vec that the given iterator points to.
     * `clear`, which removes all the elements from the Vec.
+
+   This new version of the `Vec` template class is used in a program that demonstates practically how erasing elements from it, or clearing it and         refilling it may cause an iterator to become invalidated.
 ### Extensions:
     
 ### References:
