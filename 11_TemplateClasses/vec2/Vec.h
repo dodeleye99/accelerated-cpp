@@ -151,8 +151,6 @@ private:
     difference_type size_limit() const { return limit - data; }
 };
 
-#endif
-
 // === Implementation of the undefined class methods ===
 
 // --- Private members ---
@@ -410,3 +408,4 @@ template <class T> void Vec<T>::clear()
  * followed by applying THE assignment operator on that object to another (temporary) object newly initialised by a constructor
  * taking a single integer. It would be more efficient to simply write Vec<double> v1(10);
  **/
+#endif
