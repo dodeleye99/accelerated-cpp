@@ -2,11 +2,7 @@
 #define GUARD_Lst_h
 
 #include <iterator>
-#include <memory>
 
-#include <iostream>
-using std::cout;
-using std::endl;
 
 /**
  * A custom "category" of classes used to represent a simplified List (implementing a doubly-linked list) 
