@@ -14,7 +14,7 @@ This chapter also covers particular member functions and operators that may be d
 
    This new version of the `Vec` template class is used in a program that demonstates practically how erasing elements from it, or clearing it and         refilling it may cause an iterator to become invalidated.
 ### Extensions:
-3) [lst)(lst) shows a simplified (but still very complicated) implementation of the `List<T>` template class, which implements doubly-linked lists. It demonstates how one may define their own iterator for traversing over the elements of the container, by creating a class that represents it and defining all the necessary operators in accordance to its category (in this case, it is a bi-directonal iterator).  
+3) [lst](lst) shows a simplified (but still very complicated) implementation of the `List<T>` template class, which implements doubly-linked lists. It demonstates how one may define their own iterator for traversing over the elements of the container, by creating a class that represents it and defining all the necessary operators in accordance to its category (in this case, it is a bi-directonal iterator).  
 ### References:
 
 ### New Concepts:
