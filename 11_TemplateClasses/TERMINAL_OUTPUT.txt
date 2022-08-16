@@ -59,7 +59,7 @@ Value: -11
 Did something change?
 
 #########################################################################################################
-############################## Terminal Output of the demo program in lst1 ##############################
+############################## Terminal Output of the demo program in lst ##############################
 #################### (Cmd-Line Args: ./runme the quick brown fox jumped over the lazy dog) ##############
 dog lazy the over jumped fox brown quick the ./runme 
 ./runme <--> the <--> quick <--> brown <--> fox <--> jumped <--> over <--> the <--> lazy <--> dog 
