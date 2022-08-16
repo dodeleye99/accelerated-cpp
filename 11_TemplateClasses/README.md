@@ -39,3 +39,4 @@ This chapter also covers particular member functions and operators that may be d
 * The concept of nested/inner classes, a class defined within a class, able to access every member of its outer class.
 * Defining an iterator on a container class.
 * Reverse iterators, which traverse over a sequence of values in reverse order, by swapping the uses of the increment and decrement operators.
+* The `friend` keyword, used to allow the private members of a class to be accessible to another particular class.
