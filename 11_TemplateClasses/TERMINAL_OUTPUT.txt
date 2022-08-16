@@ -58,4 +58,17 @@ Value: -11
 
 Did something change?
 
-####################################################################################################
+#########################################################################################################
+############################## Terminal Output of the demo program in lst1 ##############################
+#################### (Cmd-Line Args: ./runme the quick brown fox jumped over the lazy dog) ##############
+dog lazy the over jumped fox brown quick the ./runme 
+./runme <--> the <--> quick <--> brown <--> fox <--> jumped <--> over <--> the <--> lazy <--> dog 
+
+Outputting 20 random integers from range [0, 100]: 
+95 3 10 7 43 1 36 19 3 53 10 44 28 73 94 89 78 86 5 42 
+
+Odd numbers:  95 3 7 43 1 19 3 53 73 89 5 
+Even numbers: 10 36 10 44 28 94 78 86 42 
+
+Sorted values: 
+1 3 3 5 7 10 10 19 28 36 42 43 44 53 73 78 86 89 94 95 
