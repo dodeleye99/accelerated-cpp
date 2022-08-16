@@ -65,6 +65,9 @@ public:
     // fill constructor
     explicit Lst(size_type n, const T& val = T()){ create(n, val); }
 
+    // range constructor
+    template <class InputIterator>
+    Lst(InputIterator first, InputIterator last) { create(first, last); }
     // --------------- Destructor ---------------
     ~Lst(){ uncreate(); }
 
@@ -191,11 +194,12 @@ private:
      **/
     void create();
 
-    // Creates a Lst of values given by a sequence bound by two iterators
-    void create(const_iterator, const_iterator);
-
     // Creates a Lst of a given capacity, filling it up with a given value      
     void create(size_type, const T&);
+
+    // Creates a Lst out of a sequence values from the range of input iterators [first, last)
+    template <class InputIterator> 
+    void create(InputIterator, InputIterator);
 
     // Destroys the elements in the Lst, freeing the memory
     void uncreate();
@@ -409,6 +413,10 @@ private:
      **/
     class Iterator {
     
+    // allow the Lst class to acccess iterator's private members (particularly, its node pointer)
+    friend class Lst;
+    
+    private:
         // a pointer to the node the iterator is currently refering to
         Node* np;
     
@@ -419,6 +427,7 @@ private:
         typedef T value_type;
         typedef T* pointer;
         typedef T& reference;
+
 
         // ---------- Constructors ----------
 
@@ -453,14 +462,14 @@ private:
         }
 
         // dereference operator, returning a reference to the iterator's (node's) value
-        reference operator*() {return *(np->val);}
+        T& operator*() {return *(np->val);}
         // for read-only access
-        const reference operator*() const {return *(np->val);}
+        const T& operator*() const {return *(np->val);}
 
         // member access operator
-        pointer operator->() {return *(np->val);}
+        T* operator->() {return *(np->val);}
         // for read-only access
-        const pointer operator->() const {return *(np->val);}
+        const T* operator->() const {return *(np->val);}
 
         // increment operator, advancing to the next iterator
         // (prefix) (++it) 
@@ -502,6 +511,10 @@ private:
         bool operator==(const Iterator& rhs) const {return np == rhs.np;}
         // negation of the equality operators
         bool operator!=(const Iterator& rhs) const {return !operator==(rhs);}
+
+        // comparing with constant iterators
+        bool operator==(const ConstIterator& rhs) const {return rhs.operator==(*this);}
+        bool operator!=(const ConstIterator& rhs) const {return rhs.operator!=(*this);}
     };
 
     /**
@@ -567,10 +580,10 @@ private:
         }
 
         // dereference operator (read-only), returning a reference to the iterator's (node's) value
-        reference operator*() const {return *iter;}
+        const T& operator*() const {return *iter;}
 
         // member access operator (read-only access - not allowed to modify the objects)
-        pointer operator->() const {return iter.operator->();}
+        const T* operator->() const {return iter.operator->();}
 
         // increment operator, advancing to the next iterator
         // (prefix) (++it) 
@@ -609,6 +622,12 @@ private:
         bool operator==(const ConstIterator& rhs) const {return iter == rhs.iter;}
         // negation of the equality operators
         bool operator!=(const ConstIterator& rhs) const {return !operator==(rhs);}
+
+        // comparing with non-constant iterators
+        bool operator==(const Iterator& rhs) const {return iter == rhs;}
+        bool operator!=(const Iterator& rhs) const {return !operator==(rhs);}
+
+
     };
 
 };
@@ -629,17 +648,6 @@ template <class T> void Lst<T>::create()
     head->left->right = head;
 }
 
-template <class T> void Lst<T>::create(const_iterator i, const_iterator j)
-{   
-    // set up initial state of the Lst 
-    create();
-
-    // add each element to the end of the Lst, one by one.
-    for (const_iterator iter = i; iter != j; ++iter) {
-        push_back(*iter);
-    }
-}
-
 template <class T> void Lst<T>::create(size_type n, const T& val)
 {   
     // set up initial state of the Lst 
@@ -648,6 +656,23 @@ template <class T> void Lst<T>::create(size_type n, const T& val)
     // add each element to the end of the Lst, one by one.
     for(size_type i=0; i!=n; ++i) {
         push_back(val);
+    }
+}
+
+template <class T> 
+template <class InputIterator> void Lst<T>::create(InputIterator first, InputIterator last)
+{   
+    // set up initial state of the Lst 
+    create();
+
+    // add each element to the end of the Lst, one by one.
+    for (InputIterator iter = first; iter != last; ++iter) {
+        /**
+         * Before adding, be sure (assuming it is possible) to first construct 
+         * values of type T out of the ones the iterator points to, to ensure 
+         * it is the right type.
+         **/
+        push_back(T(*iter));
     }
 }
 
@@ -676,17 +701,9 @@ typename Lst<T>::iterator Lst<T>::insert_node(typename Lst<T>::iterator position
     // Create a new node that holds a reference of the given value.
     Node* np= new Node(v);
 
-    // Get a pointer to the first node in the Lst.
-    Node* node_it = head;
+    // Get the node that the iterator points to.
+    Node* node_it = position.np;
 
-    /**
-     * Iterate through the nodes of the Lst in time with an iterator, reaching
-     * the node at the given position.
-     **/
-    for(const_iterator it = begin(); it != position; ++it) {
-        node_it = node_it->right;
-    }
-    
     // Add ("chain") the new node to the left of the node at the given position.
     node_it->left_chain(np);
 
@@ -701,18 +718,10 @@ typename Lst<T>::iterator Lst<T>::insert_node(typename Lst<T>::iterator position
 
 template <class T> 
 typename Lst<T>::iterator Lst<T>::erase_node(typename Lst<T>::iterator position)
-{
-    // Get a pointer to the first node in the Lst.
-    Node* node_it = head;
-
-    /**
-     * Iterate through the nodes of the Lst in time with an iterator, reaching
-     * the node at the given position.
-     **/
-    for(const_iterator it = begin(); it != position; ++it) {
-        node_it = node_it->right;
-    }
-
+{   
+    // Get the node that the iterator points to.
+    Node* node_it = position.np;
+    
     /**
      * Unchain this node from the connections of nodes, returning a pointer to the
      * node taking its place.
