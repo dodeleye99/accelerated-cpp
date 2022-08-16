@@ -764,7 +764,6 @@ template <class T> void Lst<T>::erase_all()
     head = tail;
 }
 
-#endif
 /**
  * ======================================
  * Illustration of the Lst container type
@@ -842,3 +841,4 @@ template <class T> void Lst<T>::erase_all()
  * 4) Set the left node of F_NULL to Node 2
  * -----------------------------------------------------
  **/
+#endif
