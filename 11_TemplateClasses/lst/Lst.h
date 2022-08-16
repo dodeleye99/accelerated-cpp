@@ -832,7 +832,7 @@ template <class T> void Lst<T>::erase_all()
  *                 ======        ======        ======
  * (START) ------> Node 1 <====> Node 2 <====> F_NULL <----- (END)
  *                 ======        ======        ======
-                   /
+ *                 /
  *   ======       / 
  *   R_NULL <--> /
  *   ======
