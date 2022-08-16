@@ -57,9 +57,11 @@ int main(int argc, char** argv)
     // Output them in reverse order
     output_values(str_lst.rbegin(), str_lst.rend());
 
-    // Insert "*pant*" between each element
+    // Insert "<-->" between each element
     for(str_iter iter = str_lst.begin(); iter != str_lst.end(); ++iter) {
-        str_lst.insert(iter, "*pant*");
+        // do not insert at the start position, otherwise one will be at the front.
+        if(iter != str_lst.begin())
+            str_lst.insert(iter, "<-->");
     }
     // Output the modfiied lst in the ususal order
     output_values(str_lst.begin(), str_lst.end());
