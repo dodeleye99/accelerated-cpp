@@ -7,15 +7,16 @@ They allow one to create a single definition of a class with a selection of data
 
 This chapter also covers particular member functions and operators that may be defined on a class, as well as a more flexible method of memory management.
 ### Directories of Code:
-1) [vec1](vec1) shows a simplified implementation of the `Vector<T>` template class. It demonstrates how template classes are defined, the special member functions that can be specified on classes, and how one can manage memory effectively. It is used in a program that shows a brief demo for how adding more elements to it can invalidate iterators, due to reallocation of elements.
-2) [vec2](vec2) adds two more member functions to the class: 
+1) [`vec1`](vec1) shows a simplified implementation of the `Vector<T>` template class, under the name [`Vec<T>`](vec1/Vec}. It demonstrates how template classes are defined, the special member functions that can be specified on classes, and how one can manage memory effectively. It is used in a program that shows a brief demo for how adding more elements to it can invalidate iterators, due to reallocation of elements.
+2) [`vec2`](vec2) adds two more member functions to the class: 
     * `erase`, which deletes the element from the Vec that the given iterator points to.
     * `clear`, which removes all the elements from the Vec.
 
    This new version of the `Vec` template class is used in a program that demonstates practically how erasing elements from it, or clearing it and         refilling it may cause an iterator to become invalidated.
 ### Extensions:
-3) [lst](lst) shows a simplified (but still very complicated) implementation of the `List<T>` template class, which implements doubly-linked lists. It demonstates how one may define their own iterator for traversing over the elements of the container, by creating a class that represents it and defining all the necessary operators in accordance to its category (in this case, it is a bi-directonal iterator).  
-### References:
+3) [`lst`](lst) defines a template class called [`Lst<T>`](lst/Lst), a simplified (but still very complicated) implementation of the `List<T>` template class, which implements doubly-linked lists. It demonstates how one may define their own iterator for traversing over the elements of the container, by creating a class that represents it and defining all the necessary operators in accordance to its category (in this case, it is a bi-directonal iterator).
+   
+   It is used in a program that does numerous tests on its functionality, such as construction, insertion, forward and reverse iterations, and simple sorting.
 
 ### New Concepts:
 * Defining a template class, producing a family of classes differing only by a set of types associated with each class.
@@ -38,5 +39,6 @@ This chapter also covers particular member functions and operators that may be d
 * The `this` keyword in a class member function, which gives a pointer to the class object.
 * The concept of nested/inner classes, a class defined within a class, able to access every member of its outer class.
 * Defining an iterator on a container class.
-* Reverse iterators, which traverse over a sequence of values in reverse order, by swapping the uses of the increment and decrement operators.
+* Reverse iterators, which traverse over a sequence of values in reverse order, by swapping the uses of the increment and decrement operators
+   *  The `std::reverse_iterator<Iter>` template class, used to make a given iterator function like a reverse iterator.
 * The `friend` keyword, used to allow the private members of a class to be accessible to another particular class.
