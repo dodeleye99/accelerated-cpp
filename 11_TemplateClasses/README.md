@@ -42,3 +42,4 @@ This chapter also covers particular member functions and operators that may be d
 * Reverse iterators, which traverse over a sequence of values in reverse order, by swapping the uses of the increment and decrement operators
    *  The `std::reverse_iterator<Iter>` template class, used to make a given iterator function like a reverse iterator.
 * The `friend` keyword, used to allow the private members of a class to be accessible to another particular class.
+* Declaring and defining template member functions of a template class.
