@@ -118,14 +118,15 @@ bool do_option(const string& out_dir, const Option& opt, vector<Student_info>& s
      * NULL POINTERS
      * =============
      * A pointer that is not assigned an address to 'point' to, 
-     * and thus is not truly pointing to anything, is called a null pointer. 
-     * 
+     * and thus is not truly pointing to anything, is called a null pointer.
+     * One may be checked by comparing it with the constant 0.
+     *
      * If this is the case for the grade writting function pointer, then
      * it is assumed that the option does not exist. So give an appropriate
      * message and do nothing else, returning false to indicate a failure to
      * process the option.
      **/
-    if(f == nullptr) {
+    if(f == 0) {
         cout << "Option does not exist!";
         return false;
     }
