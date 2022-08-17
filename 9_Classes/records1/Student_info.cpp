@@ -69,9 +69,21 @@ double grade(int midterm, int final, vector<int> hw,
 /* =============================== Definitions of Student_info member functions ================================================*/
 
 /* ----------------------------------- Constructors ---------------------------- */
+/**
+ * Note the semicolon after the (default) constructor name, and the fact that the body {...} is empty.
+ * What we have used here are constructor initialisers, enabling data members to be initialised through their constructors.
+ * 
+ * It is the only possible way for data members of a class to be defined. Without it, the members will be default initialised, 
+ * giving us no opportunity to do it in whatever way we would like beforehand.
+ * At best, within the constructor body, we can only do assignment, which would be redundant if we have no use for the default
+ * value in the first place, doing twice as much as work.
+ * 
+ * Here only midterm and final are default initialised. The other two members (n and homework) will have their default constructors 
+ * called, giving an empty string and vector respectively, which is exactly what we want anyway.
+ **/
 Student_info::Student_info(): midterm(0), final(0){ }
-Student_info::Student_info(istream& is) { read(is); }
 
+Student_info::Student_info(istream& is) { read(is); }
 
 /* ------------------------- (Public) member functions --------------------------- */
 double Student_info::grade() const
