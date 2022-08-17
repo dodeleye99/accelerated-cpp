@@ -24,4 +24,5 @@ In C++, they can be defined using either the **`class`** keyword or the **`struc
 ### New Concepts:
 * Class types, as explained above.
 * Specifying the accessibility of class members using the `public` and `private` keywords.
-* Defining class constructors, functions used to initialise an object defined by the class. 
+* Defining class constructors, functions used to initialise an object defined by the class.
+* Constructor initialisers, written after the `:` following the constructor declaration and before its body `{...}`, enabling data members to be initialised.
