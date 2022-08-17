@@ -70,7 +70,7 @@ double grade(int midterm, int final, vector<int> hw,
 
 /* ----------------------------------- Constructors ---------------------------- */
 /**
- * Note the semicolon after the (default) constructor name, and the fact that the body {...} is empty.
+ * Note the semicolon after the (default) constructor signature, and the fact that the body {...} is empty.
  * What we have used here are constructor initialisers, enabling data members to be initialised through their constructors.
  * 
  * It is the only possible way for data members of a class to be defined. Without it, the members will be default initialised, 
