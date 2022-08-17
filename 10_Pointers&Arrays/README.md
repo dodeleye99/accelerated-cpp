@@ -52,5 +52,5 @@ It is not possible, however, to assign an entire array to another value, even an
 * Constant pointers, which cannot be made to point to another address.
 * Calculating the capacity of an array by doing basic division with the `sizeof()` function (more precisely, `sizeof(array) / sizeof(*array)`).
 * The `typename` keyword, used to indicate that a name in a given scope is a type (important for template type parameters).
-* Null pointers, which do not point to any address at all, and can be defined and identified through the `nullptr` keyword.
+* Null pointers, which do not point to any address at all, and can be defined and identified through the constant `0`.
 * Pointers to functions, and defining a type mnemonic for a pointer to functions of a given type (return and parameter list).
