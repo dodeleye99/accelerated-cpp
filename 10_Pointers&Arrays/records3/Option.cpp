@@ -136,14 +136,6 @@ void output_records(ostream& out, v_iter b, v_iter e, str_sz maxlen, bool lg=tru
     out << border << endl;
 }
 
-Option::Option(){
-    label=""; f=nullptr;
-}
-
-Option::Option(std::string l, grades_funct gf){
-    label=l; f=gf;
-}
-
 // OPTION #1: Output all student records together
 void output_records_std(ostream& out, v_iter b, v_iter e, str_sz maxlen)
 {
