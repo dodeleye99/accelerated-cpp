@@ -26,10 +26,10 @@ struct Option {
     // a pointer to the function representing the actual processor for outputting the grades.
     grades_funct f;
 
-    // defaut constructor
-    Option();
+    // default constructor
+    Option(): f(0) {}
     // member initialisation contructor
-    Option(std::string, grades_funct);
+    Option(std::string l, grades_funct gf): label(l), f(gf) {}
 };
 
 // A type representing a map of options, with keys representing text the user should enter to select them.
