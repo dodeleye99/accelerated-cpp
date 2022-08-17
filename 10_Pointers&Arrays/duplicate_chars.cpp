@@ -64,6 +64,6 @@ char* duplicate_chars(const char* p)
  * -----------------------------------------------------
  * It may be possible for the program to fail to allocate memory for a request, in the case of insufficient space available. 
  * In such cases an exception is thrown (bad_alloc), except if '(nothrow)' is used when allocating memory, following the 'new' keyword.
- * In the latter case a null pointer (nullptr) is returned, which is a pointer with no particular address (zero).
+ * In the latter case a null pointer is returned, which is a pointer with no particular address, and thus does not refer to any existing object.
  * The program should therefore take measures to catch and handle such errors or potential null pointers. 
  **/
