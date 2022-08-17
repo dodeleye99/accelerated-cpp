@@ -25,4 +25,4 @@ In C++, they can be defined using either the **`class`** keyword or the **`struc
 * Class types, as explained above.
 * Specifying the accessibility of class members using the `public` and `private` keywords.
 * Defining class constructors, functions used to initialise an object defined by the class.
-* Constructor initialisers, written after the `:` following the constructor declaration and before its body `{...}`, enabling data members to be initialised.
+* Initialising data members from a class constructor by defining a sequence of **constructor initialisers**, written after a semicolon `:` following the constructor declaration, and before its body `{...}`.
