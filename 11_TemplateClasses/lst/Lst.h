@@ -236,17 +236,15 @@ private:
         // represents the next adjacent node in the list
         Node* right;
 
-        // default constructor
-        Node() {
-            // set all pointers to 0, representing a "null-node"
-            val=0; left=0; right=0;
-        }
+        // default constructor (set all pointers to 0, representing a "null-node")
+        Node(): val(0), left(0), right(0) { }
 
-        // construtor which sets its value
-        Node(const T& v) {
-            // create a copy of the given value, setting the val pointer to its address
-            val = new T(v); left=0; right=0;
-        }
+        /**
+         * Construtor which sets its value.
+         * (Create a copy of the given value, setting the val pointer to its address)
+         **/
+        Node(const T& v): val(new T(v)), left(0), right(0) { }
+        
         // destructor
         ~Node()
         {   
@@ -431,22 +429,14 @@ private:
 
         // ---------- Constructors ----------
 
-        // default constructor
-        Iterator() {
-            // set node pointer to 0, representing a "null-pointer"
-            np=0;
-        }
+        // default constructor (set node pointer to 0, representing a "null-pointer")
+        Iterator(): np(0) { }
 
-        // copy constructor
-        Iterator(const Iterator& it) {
-            // simply make node pointer match
-            np=it.np;
-        }
+        // copy constructor (simply make node pointer match)
+        Iterator(const Iterator& it): np(it.np) { }
 
         // constructor which sets its node pointer. 
-        Iterator(Node* p) {
-            np=p;
-        }
+        Iterator(Node* p): np(p) { }
 
         // ---------- Operators ----------
 
@@ -540,24 +530,23 @@ private:
 
         // ---------- Constructors ----------
 
-        // default constructor
-        ConstIterator() {
-            iter = Iterator();
-        }
+        /**
+         * Default constructor
+         * 
+         * Since we have declared at least one other sconstructor already, the default constructor will 
+         * not be synthesised by the comipler. Therefore if we wish for the class to be default constructable, 
+         * we must define it ourselves, even if we leave it empty.
+         **/
+        ConstIterator() { }
 
         // copy constructor
-        ConstIterator(const ConstIterator& it) {
-            iter=it.iter;
-        }
+        ConstIterator(const ConstIterator& cit): iter(cit.iter) { }
 
-        // constructor which sets its node pointer. 
-        ConstIterator(Node* p) {
-            iter= Iterator(p);
-        }
+        // constructor which sets its node pointer
+        ConstIterator(Node* p): iter(p) { }
 
-        ConstIterator(const Iterator& it) {
-            iter=it;
-        }
+        // constructor which initialises the base iterator from the one given
+        ConstIterator(const Iterator& it): iter(it) { }
 
         // ---------- Operators ----------
 
