@@ -292,8 +292,14 @@ template <class T> void Vec<T>::unchecked_append(const T& val)
  * 
  *                 A special case of is when the value to be assigned is a constant refererence to an object 
  *                 of the same type. This particular instance of the '=' operator is called the 
- *                 "assignment operator".
- * 
+ *                 "assignment operator". If the user does not define one, the compiler will do so 
+ *                 automatically.
+ *                  
+ *                 If no appropriate 'operator=' overload exists when doing assignment, the compiler will call 
+ *                 a constructor which takes a single constant of matching type if it exists, effectively 
+ *                 converting the value on the right to the same type as the object on the left, 
+ *                 then calling the assignment operator to complete the operation.
+ *                 
  * === IMPORTANT NOTE ===
  * When the '=' operator is used to give an initial value immediately to a newly declared variable,
  * this is NOT assignment, but initialisation, calling the object's copy constructor if the value is the same type.
@@ -321,8 +327,9 @@ template <class T> void Vec<T>::unchecked_append(const T& val)
  * 
  *                      Vec<double> v1; v1 = Vec<double>(10)
  * 
- * is initialisation of one Vec<double> object, using the default constructior,
+ * is initialisation of one Vec<double> object, using the default constructor,
  * followed by applying THE assignment operator on that object to another (temporary) object newly initialised by a constructor
- * taking a single integer. It would be more efficient to simply write Vec<double> v1(10);
+ * taking a single integer (we are not allowed to write for the assignment v1 = 10 (which does exactly the same) because 
+ * the constructor is qualified with the 'explicit' keyword). It would be more efficient to simply write Vec<double> v1(10);
  **/
 #endif
