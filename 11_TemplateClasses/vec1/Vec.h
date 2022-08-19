@@ -62,7 +62,7 @@ public:
     // the assignment operator
     Vec& operator=(const Vec&);
 
-    // Indexing operator, returning the pointer of an element at a given position.
+    // indexing operator, returning a reference to the element at a given position.
     T& operator[](size_type i) { return data[i]; }
     // (for read-only)
     const T& operator[](size_type i) const { return data[i]; }
