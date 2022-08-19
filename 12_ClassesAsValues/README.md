@@ -18,3 +18,6 @@ In this chapter we explore in greater depth all the different methods in definin
 * **User-defined conversions**, which tell the compiler how to transform an object from one class to another, doing so automatically when required.
 * Defining constructors that act as user-defined conversions.
 * **Friendships**, allowing classes (see [Chapter 11](../11_TemplateClasses)) and functions to access private members of the class, by declaring them with the `friend` keyword in the class.
+* Explicit **conversion operators**, used to an object from its type to a target type.
+* `void*` pointers, also known as **universal pointers**, capable of pointing to any type of object, but must be converted to a particular type in order to be dereferenced.
+* The importance of the `explicit` keyword for constructors that may otherwise be used for automatic conversions that give unwanted behavior (see [Chapter 11](../11_TemplateClasses)).
