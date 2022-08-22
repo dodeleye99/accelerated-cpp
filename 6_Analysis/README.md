@@ -13,7 +13,7 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
     For each analysis representing one of these grading schemes, the program will output the median final grade for each of the two groups.
     
 ### Extension:
-2) `passing` revisits the pass-fail system established in Chapter 5. It explores a few standard library algorithms to reimplement the functions used to separate passing and failing students (see **passing/main.cpp** and its comments). These new implementations work in such a way that the containers holding the student records are not inserted into or deleted from, making vectors the prefered container-type rather than lists.
+2) `passing` revisits the pass-fail system established in Chapter 5. It explores a few standard library algorithms to reimplement the functions used to separate passing and failing students (see [`main.cpp`](passing/main.cpp) and its comments). These new implementations work in such a way that the containers holding the student records are not inserted into or deleted from, making vectors the prefered container-type rather than lists.
 
 3) `split.cpp` uses iterators and a standard library algorithm to reimplement in fewer lines of code the sentence splitting function established in the Chapter 5 extension.
 
