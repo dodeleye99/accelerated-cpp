@@ -5,7 +5,7 @@ An further extension of the student grading system from previous chapters. It ex
 By assumption, any zeros inputted for the homework grades are treated as homework not done. Also, it is assumed that each student should have done at least one homework assignment, and therefore inputting no homework grades for a student is still treaded as homework not done.
 
 ### Directories of Code:
-1) **analysis1** uses three different grading schemes to compare the grades of students who did all the homework with those who didn't:
+1) `analysis1` uses three different grading schemes to compare the grades of students who did all the homework with those who didn't:
     1) the standard grading scheme, which uses the median of the homework grades in calculating the final grade.
     2) the average homework grading scheme, which uses the average of the homework grades in calculating the final grade.
     3) the 'optimistic' grading scheme, which follows the standard grading scheme while only considering homework that was actuall done.
@@ -13,13 +13,13 @@ By assumption, any zeros inputted for the homework grades are treated as homewor
     For each analysis representing one of these grading schemes, the program will output the median final grade for each of the two groups.
     
 ### Extension:
-2) **passing** revisits the pass-fail system established in Chapter 5. It explores a few standard library algorithms to reimplement the functions used to separate passing and failing students (see **passing/main.cpp** and its comments). These new implementations work in such a way that the containers holding the student records are not inserted into or deleted from, making vectors the prefered container-type rather than lists.
+2) `passing` revisits the pass-fail system established in Chapter 5. It explores a few standard library algorithms to reimplement the functions used to separate passing and failing students (see **passing/main.cpp** and its comments). These new implementations work in such a way that the containers holding the student records are not inserted into or deleted from, making vectors the prefered container-type rather than lists.
 
-3) **split.cpp** uses iterators and a standard library algorithm to reimplement in fewer lines of code the sentence splitting function established in the Chapter 5 extension.
+3) `split.cpp` uses iterators and a standard library algorithm to reimplement in fewer lines of code the sentence splitting function established in the Chapter 5 extension.
 
-4) **palindrone.cpp** consists of a function that uses standard library algoirthms to easily determine whether a string is a palindrome (spelled the same way front to back and back to front).
+4) `palindrone.cpp` consists of a function that uses standard library algoirthms to easily determine whether a string is a palindrome (spelled the same way front to back and back to front).
 
-5) **url_finder** uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
+5) `url_finder` uses standard library algorithms to extract from a string all the substrings that match the format of a URL.
 
 ### New Concepts:
 * Defining a function which has as one of its input parameters another function (or more precisely, a function pointer) of an established type.
