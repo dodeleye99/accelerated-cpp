@@ -11,15 +11,15 @@ Because of their special nature, the **compiler** automatically generates out of
 **Iterators** are also explored in much greater depth, which themselves are built upon templates.
 
 ### Directories of Code:
-1) **hello_world** represents a basic "Hello World" program, but implemented in an interesting way to demonstrate the use of template functions.
+1) `hello_world` represents a basic "Hello World" program, but implemented in an interesting way to demonstrate the use of template functions.
 The twist is that the integer-typed zero returned by the main() function is replaced by a function that outputs zero with a type that matches a given type-parameter, which in this case must be int.
-2) **sentence_split** returns to the splitting functions defined and used in previous chapters, this time implementing it using a template that allows the function to be applied to any output iterator.
-3) **int_reader** explores how iterators on input and output streams can be used to read input and write output respectively only of a single type, in this case integers.
-4) **analysis** returns to the grade analysis program established in Chapter 6. Previously the median and average functions were each given two implementations so that they can receive either a vector of ints or doubles. Now they each use a single template which takes two iterators respectively pointing to the start and the end of a container, containing the values to apply the function to.
+2) `sentence_split` returns to the splitting functions defined and used in previous chapters, this time implementing it using a template that allows the function to be applied to any output iterator.
+3) `int_reader` explores how iterators on input and output streams can be used to read input and write output respectively only of a single type, in this case integers.
+4) `analysis` returns to the grade analysis program established in Chapter 6. Previously the median and average functions were each given two implementations so that they can receive either a vector of ints or doubles. Now they each use a single template which takes two iterators respectively pointing to the start and the end of a container, containing the values to apply the function to.
 
 ### References:
-5) **iter_categories.cpp** acts as a reference file to give descriptions of all the different kinds of iterators, each with template functions demonstrating their use.
-6) **algorithms.cpp** shows implementations of the majority of the <algorithm> functions seen in Chapter 6, using templates with appropriate type-parameter names for the type of iterators expected for each algorithm.
+5) `iter_categories.cpp` acts as a reference file to give descriptions of all the different kinds of iterators, each with template functions demonstrating their use.
+6) `algorithms.cpp` shows implementations of the majority of the <algorithm> functions seen in Chapter 6, using templates with appropriate type-parameter names for the type of iterators expected for each algorithm.
 
 ### New Concepts:
 * Defining generic functions using templates, as explained above.
