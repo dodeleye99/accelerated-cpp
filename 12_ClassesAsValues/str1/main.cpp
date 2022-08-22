@@ -37,7 +37,7 @@ int main(int argc, char** argv)
          * 
          * == NOTE ==
          * One cannot concatenate two string literals. But one may be concatenated with a Str,
-         * since Str has a convertion operator to convert a const char* to an Str.
+         * since Str has an associated convertion operator to convert a const char* to a Str.
          * So we need to enssure that Str object concatenation is intendet here, by adding brackets 
          * indicating priority of operands with respect to the '+' operator.
          **/
