@@ -44,7 +44,7 @@ It is not possible, however, to assign an entire array to another value, even an
 * Defining pointers and arrays in C++, as shown above.
 * Defining a 'nested' pointer: a pointer that 'points' to a pointer.
 * The address-of operator `&`, used to obtain the address of an existing object that can then be assigned to a pointer.
-* Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively, allowing us to define arrays or pointers with a size only known during runtime.
+* Dynamic memory allocation and deallocation using the `new` and `delete` operators respectively, allowing us to define arrays or single objects with a size only known during runtime and that persist even outside its scope of initialisation until they are deleted.
 * The two-parameter form of the `main()` function, which uses command-line arguments the user can pass to it when executing the program.
 * Reading from and writting to files using `ifstream` and `ofstream` objects respectively.
 * Using the `ifstream::seekg()` member function to enable a file to be re-read from the beginning.
