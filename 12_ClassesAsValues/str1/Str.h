@@ -3,8 +3,6 @@
 #include <iostream>     // std::istream, std::ostream
 #include <iterator>     // std::back_inserter
 
-#include <string>
-
 #include "Vec.h"
 
 /**
