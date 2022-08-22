@@ -30,7 +30,7 @@ int main(int argc, char** argv)
          * Let s hold the command arguments in a "semi-symmetric" form:
          * <arg1> <arg2> ... <argN> <argN> ... <arg2> <arg1>
          * 
-         * For example, if argv = {""./runme", "Hello", "World""}
+         * For example, if argv = {"./runme", "Hello", "World"}
          * 
          * Then
          * s = ""./runme Hello World World Hello ./runme"
