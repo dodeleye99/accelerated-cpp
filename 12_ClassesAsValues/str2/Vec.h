@@ -93,9 +93,12 @@ public:
     }
 
     /**
-     * Removes the element pointed to by an iterator from the Vec.
-     * Note that unless erasing from the end, any iterators 
-     * to elements after the deleted element will become invalid.
+     * Removes the element pointed to by the given iterator from the Vec, returning an iterator 
+     * pointing to the new location of the element that came after it.
+     *
+     * Note that unless erasing from the end, any iterators to elements after the deleted element 
+     * will become invalid, no longer pointing to their original value, since these elements will 
+     * be shifted down.
      **/
     iterator erase(iterator);
 
@@ -254,7 +257,6 @@ Vec<T>& Vec<T>::operator=(const Vec& rhs)
  
 template <class T> typename Vec<T>::iterator Vec<T>::erase(iterator position)
 {   
-
     // create a variable holding the position of the element to erase.
     iterator it = position;
 
@@ -272,8 +274,8 @@ template <class T> typename Vec<T>::iterator Vec<T>::erase(iterator position)
     // set avail to where it previously pointed to, since this now marks the first free (unconstructed) space.
     avail = it - 1;
     
-    // return avail, pointing to the new end point of the Vec.
-    return avail;
+    // return the position argument, now pointing to the element coming after the one just erased.
+    return position;
 }
 
 /**
