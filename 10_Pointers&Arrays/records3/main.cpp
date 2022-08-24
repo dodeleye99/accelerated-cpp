@@ -132,7 +132,7 @@ bool do_option(const string& out_dir, const Option& opt, vector<Student_info>& s
     }
             
     // Open the output file (or create a new one)
-    ofstream out(out_dir);
+    ofstream out(out_dir.c_str());
 
     /**
      * Dereference the pointer to get the actual function it points to, then call it
