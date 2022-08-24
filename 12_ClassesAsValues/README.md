@@ -16,8 +16,8 @@ This chapter explores in greater depth all the different methods in defining and
     The directory also constists of a program demonstating its use, while showing cases where the automatic convertions are carried out.
     
 2) [`str2`](str2) improves upon the `Str` class. It adds three functions used by the `std::string` class for explicit conversion to a `char*` object pointing to a character array: 
-    * `c_string()`, giving the user a copy of the `Str` in the form of a null-terminated character array,
-    * `data()`, same as `c_string()`, but the array is not necessarily null-terminated
+    * `c_str()`, giving the user a copy of the `Str` in the form of a null-terminated character array,
+    * `data()`, same as `c_str()`, but the array is not necessarily null-terminated
     * `copy()`, takes a pointer to a character array from the user, and writes the characters in a specified index range from the `Str` object to it. 
     
     The `std::string` class does not provide an implicit conversion, because there is no single way it can be done without drawbacks or potential dangers from occuring, especially since the resulting character array will be dynamic (see comments above data member `c` in [`Str.h`](str2/Str.h)).
