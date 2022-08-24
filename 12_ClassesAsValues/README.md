@@ -45,3 +45,6 @@ This chapter explores in greater depth all the different methods in defining and
 * Explicit **conversion operators**, used to an object from its type to a target type.
 * `void*` pointers, also known as **universal pointers**, capable of pointing to any type of object, but must be converted to a particular type in order to be dereferenced.
 * The importance of the `explicit` keyword for constructors that may otherwise be used for automatic conversions that give unwanted behavior (see also [Chapter 11](../11_TemplateClasses)).
+* **Explicit convertion operators**, used to covert an object from its type to a target type.
+* Reading from an input stream character-by-character through the `istream::get()` function. 
+    * Undoing the last character read through the `istream::unget()` function.
