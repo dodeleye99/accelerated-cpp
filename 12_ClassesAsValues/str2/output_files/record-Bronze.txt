@@ -1,0 +1,7 @@
+=========================
+Name        : Bronze
+Reg Pos     : 3 / 15
+Grade       : 88
+Letter      : B+
+Class Rank  : 1 / 15
+=========================
