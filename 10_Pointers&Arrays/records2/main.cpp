@@ -177,7 +177,7 @@ int main(int argc, char** argv)
     }
 
     // Open the output file (or create a new one)
-    ofstream output_file(output_dir);
+    ofstream output_file(output_dir.c_str());
 
     // alphabetize the student records
     sort(students.begin(), students.end(), compare);
