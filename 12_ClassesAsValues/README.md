@@ -40,7 +40,13 @@ This chapter explores in greater depth all the different methods in defining and
 3) [`ref_str1`](ref_str1) consists of an improved version of both the `Vec` template class and the `Str` class that depends on it. New member functions have been added to the `Vec` class:
     * `resize()`, used to change the number of elements of the container so that it meets a given size.
     * `assign()`, used to replace all the contents of the container with the contents of another, defined by a given range of iterators.
-Multiple functions that were part of the `Vec` template class are now part of the `Str` class, including iterators, and the `insert()` function.
+    * `insert()`, used to insert a single value, multiple copies of a value, or a range of values, into the contained at a given position (causing all elements after it to be "shifted" up the container).
+
+    A "range" overload of the `Vec` constructor and the `erase()` function have also been implemented. 
+
+    As for the `Str` class, multiple functions that were part of the `Vec` template class are now part of it, including random-access iterators and the `insert()`, `erase()`, and `resize()` functions. An operator that converts a `Str` object to a `bool` type has also been defined, and the concatenation operators have been improved, no longer relying on automatic conversions, and defined to work with single `char` objects.
+    
+    Finally, the `getline()` function has been overloaded to allow for a line of characters read from an `istream` object to be loaded into a `Str` object.
 ### Extensions:
 
 ### New Concepts:
