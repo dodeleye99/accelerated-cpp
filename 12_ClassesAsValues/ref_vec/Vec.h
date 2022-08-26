@@ -2,10 +2,10 @@
 #define GUARD_Vec_h
 
 #include <algorithm>    // std::max;
-#include <cstddef>      // std::ptrdiff_t;
-#include <iterator>     // std::distance, std::iterator_traits<It>
-#include <memory>       // std::allocate<T>, std::uniuninitialized_copy, std::uninitialized_fill
 #include <cstddef>      // std::ptrdiff_t and std::size_t
+#include <iterator>     // std::distance, std::iterator_traits<It>
+#include <memory>       // std::allocate<T>, std::uninitialized_copy, std::uninitialized_fill
+
 
 /**
  * A custom "category" of classes used to represent a vector of elements of a particular type
@@ -412,7 +412,7 @@ template <class T> void Vec<T>::grow(size_type min_space)
 template <class T> typename Vec<T>::iterator Vec<T>::unchecked_insert(iterator position, const T& val)
 {
     /**
-     * This goal is to "shift" every element in the range [position, avail) up the array
+     * The goal is to "shift" every element in the range [position, avail) up the array
      * by one place. This leaves room to insert the new value into the array at the given position.
      **/
 
@@ -469,7 +469,7 @@ void Vec<T>::unchecked_insert(iterator position, In first, In last, difference_t
     // finally, starting from the given position, construct elements from the values in the given range [first, last).
     std::uninitialized_copy(first, last, position);
 
-    // remember to increment the pointer to the end of the Vec, since one element has just been added.
+    // remember to increase the pointer to the end of the Vec, since multiple elements have just been added.
     avail += dist;
 }
 /** 
@@ -557,7 +557,7 @@ void Vec<T>::unchecked_insert(iterator position, size_type n, const T& val)
     // finally, starting from the given position, construct n elements from the given value.
     std::uninitialized_fill(position, position + n, val);
 
-    // remember to increment the pointer to the end of the Vec, since one element has just been added.
+    // remember to increase the pointer to the end of the Vec, since n elements have has just been added.
     avail += n;
 }
 
