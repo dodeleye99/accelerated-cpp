@@ -2,9 +2,8 @@
 #define GUARD_Vec_h
 
 #include <algorithm>    // std::max;
-#include <cstddef>      // std::ptrdiff_t;
-#include <memory>       // std::allocate<T>, std::uniuninitialized_copy, std::uninitialized_fill
 #include <cstddef>      // std::ptrdiff_t and std::size_t
+#include <memory>       // std::allocate<T>, std::uniuninitialized_copy, std::uninitialized_fill
 
 /**
  * A custom "category" of classes used to represent a vector of elements of a particular type
