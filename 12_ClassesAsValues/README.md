@@ -37,7 +37,10 @@ This chapter explores in greater depth all the different methods in defining and
     * comparing two `Student_info` objects to determine which one has the highest grade.
 
 ### References:
-3) [`ref_str1`](ref_str1) consists of an improved version of both the `Vec` template class and the `Str` class that depends on it.
+3) [`ref_str1`](ref_str1) consists of an improved version of both the `Vec` template class and the `Str` class that depends on it. New member functions have been added to the `Vec` class:
+    * `resize()`, used to change the number of elements of the container so that it meets a given size.
+    * `assign()`, used to replace all the contents of the container with the contents of another, defined by a given range of iterators.
+Multiple functions that were part of the `Vec` template class are now part of the `Str` class, including iterators, and the `insert()` function.
 ### Extensions:
 
 ### New Concepts:
