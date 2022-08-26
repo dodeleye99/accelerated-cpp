@@ -47,6 +47,8 @@ This chapter explores in greater depth all the different methods in defining and
     As for the `Str` class, multiple functions that were part of the `Vec` template class are now part of it, including random-access iterators and the `insert()`, `erase()`, and `resize()` functions. An operator that converts a `Str` object to a `bool` type has also been defined, and the concatenation operators have been improved, no longer relying on automatic conversions, and defined to work with single `char` objects.
     
     Finally, the `getline()` function has been overloaded to allow for a line of characters read from an `istream` object to be loaded into a `Str` object.
+    
+4) [`ref_str2`](ref_str2) consists of an even more improved version of both the `Str` class. This iteration no longer relies on the `Vec<char>` class, now managing memory on its own. Every part of `Vec<char>` that was yet to be included in the `Str` class has now been added. One may easily notice how strikingly similar they are in terms of their implementations, with the `Str` class copying most of the implementation details of the `Vec<char>` class.
 ### Extensions:
 
 ### New Concepts:
