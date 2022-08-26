@@ -71,8 +71,12 @@ public:
     
     // the assignment operator: change state of the Str so that it matches the state of another Str, while independent.
     Str& operator=(const Str& s){
-        dta = s.dta;
-        reallocate_c();
+
+        // first check for self-assignment, in which case do nothing.
+        if(&s != this) {
+            dta = s.dta;
+            reallocate_c(false); 
+        }
         return *this;
     }
 
@@ -90,7 +94,7 @@ public:
         std::copy(s.dta.begin(), s.dta.end(), std::back_inserter(dta));
 
         // the Str has been changed, so reallocate the chararacter array given by the member c.
-        reallocate_c();
+        reallocate_c(false);
 
         // return a refrence to the left operand (this Str), giving the final result.
         return *this;
@@ -131,7 +135,7 @@ public:
      * characters as possible are copied (i.e. up to the last element of the Str).
      * 
      **/
-    size_t copy(char* p, size_t n, size_t pos=0) {
+    size_t copy(char* p, size_t n, size_t pos=0) const {
 
         // define an iterator pointing to the character at the index marked by pos.
         const char* b = dta.begin() + pos;
