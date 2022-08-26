@@ -35,7 +35,9 @@ This chapter explores in greater depth all the different methods in defining and
     * conversion to `double` (based on final grade)
     * conversion to `bool` (based on validity of record)
     * comparing two `Student_info` objects to determine which one has the highest grade.
-    
+
+### References:
+3) [`ref_str1`](ref_str1) consists of an improved version of both the `Vec` template class and the `Str` class that depends on it.
 ### Extensions:
 
 ### New Concepts:
