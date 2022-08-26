@@ -1,6 +1,6 @@
 # Chapter 12: Classes as Values
 
-We have briefly seen in previous chapters how objects of **class types** can be made to function like **values**, that is, retaining an **independent** state during operations, unrelated to the state of any other objects involved.
+In previous chapters it was breifly touched upon how objects of **class types** can be made to function like **values**, that is, retaining an **independent** state during operations, unrelated to the state of any other objects involved.
 
 In particular, the **copy constructor** and **assignment operator**, which every class will have defined (synthesised by the compiler if the user does not define them) allows us to "set" an object (whether new or pre-existent) to another one using the `=` symbol. If properly defined, the object can be made independent of the object used to set it, thus acting like a value.
 
