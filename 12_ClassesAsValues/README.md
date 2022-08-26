@@ -11,7 +11,7 @@ But even moreso, built-in types are capable of undergoing **conversion** from on
 This chapter explores in greater depth all the different methods in defining and carefully designing operators that allow class objects to behave as values, including how one can transform an object from one class to another.
 
 ### Directories of Code:
-1) [`str1`](str1) consists of a simplified vesion of the `std::string` class, under the name [`Str`](str1/Str.h), acting as an extension of the `Vec` template class defined in [Chapter 11](../11_TemplateClasses), particularly `Vec<char*>`. It consists of operations specific to strings, including concatenation, stream input and stream output, as well as a constructor that acts as a conversion from a `char*` object to a `Str` object. 
+1) [`str1`](str1) consists of a simplified vesion of the `std::string` class, under the name [`Str`](str1/Str.h), acting as an extension of the `Vec` template class defined in [Chapter 11](../11_TemplateClasses), particularly `Vec<char>`. It consists of operations specific to strings, including concatenation, stream input and stream output, as well as a constructor that acts as a conversion from a `char*` object to a `Str` object. 
 
     The directory also constists of a program demonstating its use, while showing cases where the automatic convertions are carried out.
     
