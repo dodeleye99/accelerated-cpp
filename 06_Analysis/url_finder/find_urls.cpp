@@ -7,6 +7,7 @@ using std::isalpha;
 using std::isalnum;
 using std::find;
 using std::find_if;
+using std::search;
 using std::string;
 using std::vector;
 
