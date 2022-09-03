@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# We assume all files under the name "main" (no extension) are also executables
+main
