@@ -1,1 +1,1 @@
-![Demo](./hello_world1/demo.svg)
+![Demo](demo.svg)
