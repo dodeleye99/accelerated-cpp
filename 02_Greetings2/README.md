@@ -10,7 +10,7 @@ Contintues on from part 1.
 3) **triangle.cpp** does further experimentation with borders by simply outputting a triangle border.
 
 ### New Concepts:
-* The int data type, used to represent integers
+* The `int` data type, used to represent integers
 * Basic arithmetic operators
 * Logical operators
 * Iteration through `while` loops, running a block of code repreatedly against a fixed condition
