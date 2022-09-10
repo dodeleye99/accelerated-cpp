@@ -2,9 +2,9 @@
 
 Contains C++ source code files for programs which each asks for the user's name and returns an approriate greeting (using their name).
 
-### Code:
-1) **greetings1.cpp** gives a basic greeting.
-2) **greetings2.cpp** outputs a greeting surrounded by a border.
+### Directories of Code:
+1) [greetings1](greetings1) gives a basic greeting.
+2) [greetings2](greetings2) outputs a greeting surrounded by a border.
 
 ### New Concepts:
 * Input stream and operator, for reading user input
