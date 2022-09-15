@@ -8,7 +8,7 @@ The input grades are now restricted to integers rather than decimals, to prevent
 
 ### Directories of Code:
 1) [`records1`](records1) containing only **main.cpp** does as explained above.
-2) [`records2`](records2) breaks the source code down into multiple files to make it more organised and easier to find particular code. 
+2) [`records2`](records2) breaks the source code down into multiple files to make it more organised and easier to find particular code. The source code is now located in the `src` directory. 
 
 ### Extension:
 3) [`squares`](squares) does further experimentation with neatly writting a table of results. It computes the squares of 0 to 999.
