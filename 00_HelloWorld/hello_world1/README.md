@@ -1,4 +1,4 @@
-# `hello_world1:` Demo Program
+# `hello_world1` : Demo Program
 
 As shown in the demo below, to compile the program, simply run the `make` command in the same directory. Then one can execute the program by running the executable file created in the directory under the name `"main"`.
 

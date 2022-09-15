@@ -1,2 +1,2 @@
-# `quartiles:` Demo Program
+# `quartiles` : Demo Program
 ![Demo](../_demos/quartiles.svg)
