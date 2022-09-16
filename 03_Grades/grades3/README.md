@@ -1,2 +1,2 @@
-# `grades3` : Demo Program
+# [`grades3`](main.cpp) : Demo Program
 ![Demo](../_demos/grades3.svg)
