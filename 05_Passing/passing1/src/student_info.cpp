@@ -1,6 +1,5 @@
 // source file for Student_info-related functions
 #include "Student_info.h"
-#include "grade.h"
 
 using std::istream; using std::vector;
 

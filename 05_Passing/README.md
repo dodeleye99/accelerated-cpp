@@ -1,6 +1,6 @@
 # Chapter 5: Passing
 
-An extension of the student records system established in Chapter 4. It now distinguishes between students that passed and stutents that failed, based on their final grade being above or below a fixed threshold. The program uses 60 as the threshold.
+An extension of the student records system established in [Chapter 4](../04_Records). It now distinguishes between students that passed and stutents that failed, based on their final grade being above or below a fixed threshold. The program uses 60 as the threshold.
 
 ### Directories of Code:
 1) `passing1` outputs all the students with their final grades as usual, but adds "(fail)" next to every grade below the threshold, while making no comment on the passing grades.
