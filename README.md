@@ -44,7 +44,7 @@ It introduces a the `list` type from the standard library, implementing the (dou
 
 It also demonstrates the concept of iterators, used to traverse between elements of a sequence of values such as the characters of a `string`.
 
-## [Chapter 6: Analysis](06_Analyis)
+## [Chapter 6: Analysis](06_Analysis)
 This chapter does further work on the student grading system, analysing the student grades by comparing the results of students who did their homework and those who didn't.
 
 But the more important focus of this chapter is in the many different algorithms found in the C++ standard library, used to perform certain tasks on a container, such as finding, copying, removing, modifying and partitioning their elements, possibly storing the results in another container. This reduces the neccessity for writting code which performs similar tasks.
