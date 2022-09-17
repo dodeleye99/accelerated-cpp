@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+#include "find_urls.h"
+
 using std::isalpha;
 using std::isalnum;
 using std::find;

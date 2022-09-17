@@ -2,7 +2,7 @@
 #ifndef GUARD_average_h
 #define GUARD_average_h
 
-// median.h
+// average.h
 #include <vector>
 double average(const std::vector<double>&);
 double average(const std::vector<int>&);

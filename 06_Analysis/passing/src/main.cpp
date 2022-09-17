@@ -119,7 +119,7 @@ int main()
     Student_info record;
     string::size_type maxlen = 0;
 
-    cout << "Please enter the records of each student (name, midterm and final exam grades, homework grades),"
+    cout << "Please enter the records of each student (name, midterm and final exam grades, homework grades), "
             "followed by end-of-file: " << endl;
 
     // read and store all records, and find the length of the longest name

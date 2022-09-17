@@ -2,6 +2,8 @@
 #include <stdexcept>    // defines std::domain_error
 #include <vector>       // defines std::vector
 
+#include "median.h"
+
 using std::domain_error;
 using std::sort;
 using std::vector;
