@@ -134,7 +134,7 @@ int main()
     int n = 5;
     
     // prompt the user
-    cout << "A grammar is an well-defined collection of rules used to define"
+    cout << "A grammar is an well-defined collection of rules used to define "
             "the words and syntax that a sentence should have." << endl;
 
     cout << "\nInput a grammar by entering lines of text that each represent a rule." << endl;

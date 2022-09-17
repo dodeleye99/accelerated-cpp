@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+#include "split.h"
+
 using std::find_if;
 using std::isspace;
 using std::string;

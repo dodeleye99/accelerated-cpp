@@ -68,6 +68,7 @@ int main()
         return 1;
     }
 
+    cout << "Number of times each distinct word appears: " << endl;
     // write the words and associated counts
     // (note that the iterator will automatically iterate over the key-value pairs in key-alphabetical order)
     for (map<string, int>::const_iterator it = counters.begin();
