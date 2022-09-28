@@ -104,17 +104,28 @@ vector<string> level_panel(const int level)
 }
 
 // the section of the interface containing of the grid.
-// we will leave it blank, only showing the text "TETRIS".
+// we will leave it blank, only showing the text "PRESS START!".
 vector<string> grid_panel()
 {    
     const string::size_type half_width = 9;
     const int height = 18;
-    const string grid_text = "TETRIS";
+    const string grid_text = "PRESS START!";
     
-    // ensure the displayed text is on the top row, centered.
+    /**
+     * Ensure the displayed text is on the top row, centered
+     * (unless the length of grid_text is odd, in which case it cannot
+     * perfectly be centered. We choose to position it slightly towards 
+     * the right.
+     **/
     const string::size_type label_size = grid_text.size();
-    const string hz_pad(half_width - label_size/2, ' ');
-    const string grid_label = hz_pad + grid_text + hz_pad;
+    const string hz_pad1(half_width - label_size/2, ' ');
+
+    // if label_size is even (bool 0), the right pad will be same as left.
+    // if label_size is odd  (bool 1), make right pad one character smaller.
+    const string hz_pad2 = label_size % 2 ? 
+                        string(hz_pad1.size() - 1, ' ') : hz_pad1;
+
+    const string grid_label = hz_pad1 + grid_text + hz_pad2;
 
     // mark vertical gaps to fix a height
     const vector<string> v_gap(height-1, " ");

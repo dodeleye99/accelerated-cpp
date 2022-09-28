@@ -9,7 +9,7 @@ An extension of the student records system established in [Chapter 4](../04_Reco
 3) [`sentence_split`](sentence_split) does further experimentation with iterators. On every line, it receives a sentence as user input, splits it into a vector of its words (identified using the spaces in the sentence), then uses an iterator to output the words line by line.
 4) [`concordance`](concordance) takes iterators and sentence splitting even further. It receives lines of phrases inputted by the user, and neatly generates a concordance for the every word that appears (including repeats).
 5) [`framing1`](framing1) goes into more depth with creating a border around strings, along with padding. It represents a picture of characaters as a vector of strings, and constructs algorithms for framing them, and joining them vertically and horizontally. The actual program only asks the user to input lines of text, then outputs the text bordered by a frame.
-6) [`framing2`](framing2) showcases the full capibilities of the algorithms constructed in [char_pic.cpp](framing1/char_pic.cpp). It creates an interface design for a Tetris program to demonstrate them.
+6) [`framing2`](framing2) showcases the full capibilities of the algorithms constructed in [char_pic.cpp](framing1/char_pic.cpp). It creates a possible interface design for a Tetris-like game to demonstrate them.
 ### New Concepts:
 * Using iterators to traverse over the elements of a data container while pointing to them.
 * The dereference `*` operator, used to get the value that an iterator is pointing to.
