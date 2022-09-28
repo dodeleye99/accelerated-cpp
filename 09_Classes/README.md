@@ -4,7 +4,7 @@ This chapter introduces the concept of **classes**, which allow one to implement
 or reused in other programs altogether.
 
 They differ from **data structures** in that classes allow us to combine not only **data values** into a single entity, but also **functions**. 
-Together the data and functions are called the members of the class. Each of these members can either be **private** (inaccessable outside the class) or **public** (free accessible outside the class). 
+Together the data and functions are called the **members** of the class. Each of these members can either be **private** (inaccessable outside the class) or **public** (free accessible outside the class). 
 
 Therefore classes are based around the concept of **encapsulation**, the bundling of data and functions into a single entity, possibly limiting the access to some in order to provide layers of **abstraction** or a simplified interface between the inside and the outside of objects defined by the class.
 
