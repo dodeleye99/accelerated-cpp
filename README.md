@@ -2,6 +2,8 @@
 
 Code derived from the [**Accelerated C++**](https://www.informit.com/store/accelerated-c-plus-plus-practical-programming-by-example-9780201703535) textbook by Andrew Koenig and Barbara E. Moo. 
 
+The entire repository acts as my personal consolidation of all that I have learnt and understood so far from reading the book.
+
 Note that it only uses concepts found no later than C++98.
 
 ## [Intro: Hello World!](00_HelloWorld)
