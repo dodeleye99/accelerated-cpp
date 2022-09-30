@@ -13,6 +13,7 @@ From the inputted grammar, five sentences are generated randomly.
 
 ### New Concepts:
 * The `map` data structure, as explained above.
+* The `pair` type, used to group together a single pair of values, which may have different types.
 * Iterators on maps, each pointing to an object which has two members refering to the key and the value respectively.
 * Specifying default parameter values of a function.
 * Recursion, using a function within itself to breaking down the problem being solved into smaller, more managable parts.
