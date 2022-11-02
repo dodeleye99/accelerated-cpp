@@ -66,5 +66,5 @@ int main()
 }
 
 // The general structure of a function:
-// <return-type> <function-name>(<arg-type1> <arg-name2>, <arg-type2> <arg-name2>, ...)
+// <return-type> <function-name>(<arg-type1> <arg-name1>, <arg-type2> <arg-name2>, ...)
 // If <return-type> is void, then the function will not return any value at all.
