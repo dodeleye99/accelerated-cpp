@@ -36,3 +36,6 @@ main
 
 # Asciicast files
 *.cast
+
+# Visual Studio Code files
+.vscode
