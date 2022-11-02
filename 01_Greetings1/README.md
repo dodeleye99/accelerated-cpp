@@ -8,6 +8,7 @@ Contains C++ source code files for programs which each asks for the user's name 
 
 ### New Concepts:
 * Input stream and operator, for reading user input
+  * The `>>` operator, used to 'pull' string characters from an input stream.
 * Variables and assignment
 * The `string` type
 * String concatenation (joining a string literal with a string object)
