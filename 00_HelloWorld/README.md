@@ -10,9 +10,10 @@ Contains multiple C++ source code files for the "Hello World" program. They diff
 ### New Concepts:
 * The `main()` function
 * Output stream and operator
-* The `<<` operator, used to 'push' string characters onto an output stream.
+  * The `<<` operator, used to 'push' string characters onto an output stream.
 * String literals
 * Escape sequences
 * Manipulators
 * Namespaces and scopes
+  * The scope operator `::`, used to obtain a specific name defined in a namespace.
 * Directives (`#include`) to call standard library facilities.
