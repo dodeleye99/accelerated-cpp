@@ -21,7 +21,7 @@ The final grade for the student is calculated as the sum of:
 ### New Concepts:
 * reading multiple inputs from the user.
 * floating-point `double` numbers, for representing non-integer or decimal numbers.
-* the conditional `?` operator.
+* the conditional ternary `?` operator.
 * the divide `\` operator, which has behaviour depending on the types of the numbers performed on (integer or decimal).
 * the modulus `%` operator, computing the remainder after division between integers.
 * prescision manipulator for decimals.
