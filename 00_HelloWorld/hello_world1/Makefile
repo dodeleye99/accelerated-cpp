@@ -7,23 +7,23 @@
 #
 # *******************************************************************
 # --- GENERAL SYNTAX FOR RULES ---
-# target: pre-req1 pre-req 2 pre-req3 ...
+# target: pre-req1 pre-req2 pre-req3 ...
 # <tab> recipe1
-#		recipe2
-#		recipe3
+#	recipe2
+#	recipe3
 #       ...
 #
 # where <tab> represents an entered tab ('\t') - ESSENTIAL for the 
 # recipe to be recognised as part of the rule
 #
 # --- RULE COMPONENTS ---
-# target 		- the "thing" that is to be made. It could be a file,
-#				  an executable, or simply an action.
+# target 	- the "thing" that is to be made. It could be a file,
+#		  an executable, or simply an action.
 #
 # prerequisites	- the list of "things" that must be made before the 
-#				  target (in other words, its dependencies).
+#		  target (in other words, its dependencies).
 #
-# recpies		- the sequence of commands used to make the target.
+# recpies	- the sequence of commands used to make the target.
 # *******************************************************************
 
 # --- RULES ---
